@@ -1,0 +1,24 @@
+                    channel:1
+                    strength:67 dBm  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:6
+                    strength:65 dBm  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:5
+                    strength:79 dBm  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:11
+                    strength:80 dBm  
+                    ESSID:"NETGEAR19"
+                    channel:10
+                    strength:79 dBm  
+                    ESSID:"HP-Print-C5-Officejet Pro 8620"
+                    channel:8
+                    strength:68 dBm  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:1
+                    strength:52 dBm  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:132
+                    strength:85 dBm  
+                    ESSID:"WhiteSky-PublicWiFi"
