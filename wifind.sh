@@ -1,14 +1,14 @@
 #!/bin/bash
 
-#while true; do
-	#sleep 10
+while true; do
+	sleep 1
 	RETX_COUNT=`sudo netstat -s | grep retransmitted | sudo awk '{print $1}'`
 	PREV_RETX='0'
 	RETX_DIFF=`expr $RETX_COUNT - $PREV_RETX`
 	PREV_RETX=$RETX_COUNT
 	echo $RETX_DIFF packets retransmitted since last check
 
-	if [ $RETX_DIFF -gt 5 ]; then
+	if [ $RETX_DIFF -gt -1 ]; then
 		echo HIGH PACKET LOSS DETECTED
 	
 		# Getting spectrum data from drivers
@@ -21,7 +21,11 @@
 		sudo iwlist wlan0 scan | grep -e ESSID -e level -e Frequency > iwscan_initial.txt
 		# Removing any text preceding the signal level and channel data
 		# Removing 5 GHz networks from the list and formatting for easy reading later
-		sed 's/Quality=.* Signal level=-/strength:/' iwscan_initial.txt | sed 's/Frequency.* GHz //' | sed -e '/Frequency/,+2d' | sed -E 's/\(Channel (.*)\)/channel:\1/' > iwscan.txt
+		sed -E 's/Quality=.* Signal level=-(.*) dBm/strength:\1/' iwscan_initial.txt | sed 's/Frequency.* GHz //' | sed -e '/Frequency/,+2d' | sed -E 's/\(Channel (.*)\)/channel:\1/' > iwscan.txt
+		python plotSpec.py
+
+
+
 
 		echo Now scanning spectrum...
 		# SCAN SPECTRUM -> python specScan.py
@@ -68,5 +72,5 @@
 			echo No open channels were available. Will check again in 5 min
 		fi	
 	fi
-#done
+done
 
