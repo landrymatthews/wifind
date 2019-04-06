@@ -471,3 +471,18 @@ python plotSpec.py
 vim plotSpec.py 
 
 python plotSpec.py 
+ls
+vim acc_test.sh 
+ls
+vim plotSpec.py 
+vim adc_code.c 
+vim wifind.sh 
+./wifind.sh 
+ls
+cat retx_count.txt 
+vim wifind.sh 
+ls
+vim switchChannel.py 
+vim change_channel.sh 
+cat /etc/hostapd/hostapd.conf | grep channel
+vim plotSpec.py 

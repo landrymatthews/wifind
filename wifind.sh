@@ -3,6 +3,7 @@
 while true; do
 	sleep 1
 	RETX_COUNT=`sudo netstat -s | grep retransmitted | sudo awk '{print $1}'`
+	echo "$RETX_COUNT" > "./retx_count.txt"
 	PREV_RETX='0'
 	RETX_DIFF=`expr $RETX_COUNT - $PREV_RETX`
 	PREV_RETX=$RETX_COUNT
