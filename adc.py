@@ -2,12 +2,12 @@ import RPi.GPIO as IO
 import time
 import numpy as np
 import csv
+import pigpio
 #IO.setwarning(False)
 
 b = np.zeros(8);
 v = []
-pin = [1,17,27,4,5,6,7,8]
-clockpin = 9
+pin = [26,19,13,22,27,17,4,23]
 IO.setmode(IO.BCM)
 
 IO.setup(pin[0], IO.IN)
@@ -19,8 +19,8 @@ IO.setup(pin[5], IO.IN)
 IO.setup(pin[6], IO.IN)
 IO.setup(pin[7], IO.IN)
 
-IO.setup(clockpin, IO.IN)
 while len(v) < 100:
+    print("hellow")
     if(IO.input(pin[7]) == True): b[7] = 1
     if(IO.input(pin[6]) == True): b[6] = 1
     if(IO.input(pin[6]) == True): b[5] = 1
@@ -31,6 +31,7 @@ while len(v) < 100:
     if(IO.input(pin[0]) == True): b[0] = 1
     x = 0
     for i in range(len(b)):
+        print(b[i])
         x = x + (2**i)*(b[i])
     
     v.append(x)

@@ -14,8 +14,8 @@ GPIO.setup(12, GPIO.OUT)
 p = GPIO.PWM(12, 5000)
 p.start(29.3)   # where dc is the duty cycle (0.0 <= dc <= 100.0)
 p.ChangeFrequency(5000)   # where freq is the new frequency in Hz
-p.ChangeDutyCycle(29.3)  # where 0.0 <= dc <= 100.0
-time.sleep(2)
+p.ChangeDutyCycle(11)  # where 0.0 <= dc <= 100.0
+time.sleep(5)
 p.stop()
 print("channel 1 done")
 
@@ -24,8 +24,8 @@ print("channel 1 done")
 p = GPIO.PWM(12, 5000)
 p.start(38)   # where dc is the duty cycle (0.0 <= dc <= 100.0)
 p.ChangeFrequency(5000)   # where freq is the new frequency in Hz
-p.ChangeDutyCycle(38)  # where 0.0 <= dc <= 100.0
-time.sleep(2)
+p.ChangeDutyCycle(24.5)  # where 0.0 <= dc <= 100.0
+time.sleep(5)
 p.stop()
 print("channel 6 done")
 
@@ -34,7 +34,7 @@ print("channel 6 done")
 p = GPIO.PWM(12, 5000)
 p.start(54.6)   # where dc is the duty cycle (0.0 <= dc <= 100.0)
 p.ChangeFrequency(5000)   # where freq is the new frequency in Hz
-p.ChangeDutyCycle(54.6)  # where 0.0 <= dc <= 100.0
-time.sleep(2)
+p.ChangeDutyCycle(49.5)  # where 0.0 <= dc <= 100.0
+time.sleep(10)
 p.stop()
 print("channel 11 done")

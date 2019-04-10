@@ -486,3 +486,146 @@ vim switchChannel.py
 vim change_channel.sh 
 cat /etc/hostapd/hostapd.conf | grep channel
 vim plotSpec.py 
+ls
+vim adc_code.c 
+vim adc.py 
+python adc.py 
+vim adc.py 
+python adc.py 
+vim adc.py 
+cat specValues.csv 
+vim specValues.csv 
+ls
+vim adcPlot.py 
+vim adc.py 
+vim plotSpec.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim adcPlot.py 
+python adcPlot.py 
+vim specP
+vim plotSpec.py 
+vim adcPlot.py 
+vim plotSpec.py 
+python adcPlot.py 
+ls
+git add .
+git commit -m 'added adc stuff with andrew'
+git push 
+ping github.com
+ping google.com
+sudo reboot
+lsmod
+ls
+logout
+ls
+cat /etc/hostapd/hostapd.conf 
+ls
+python specScan.py 
+cat specScan.py 
+ls
+./wifind.sh 
+sudo ./wifind.sh 
+ls
+python plotSpec.py 
+ls
+history
+logout
+cd
+ls
+cat pwm_code.py
+python pwm_code.py 
+vim pwm_code.py`
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+nano pwm_code.py
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py\
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+python pwm_code.py 
+vim pwm_code.py
+python pwm_code.py
+vim pwm_code.py
+vim adc_code.c 
+vim adc.py
+python adc.py
+pip install wiringpy
+ping google.com
+sudo apt install pip
+pip install pip
+sudo apt-get install pip
+sudo apt-get install python3-pip
+pip install wiringpi
+pip
+pip -v
+sudo easy-install pip
+sudo apt-get install python-setuptools
+sudo easy-install pip
+sudo easy_install pip
+pip install wiringpi
+sudo pip install wiringpi
+gpio
+gpio -v
+python
+sudo pip install wiringpi2
+python
+vim adc.py
+python adc.py 
+vim adc.py
+python adc.py 
+vim adc.py
+python adc.py 
+vim adc.py
+python adc.py 
+vim adc.py
+nano adc.py
+vim adc.py
+sudo pip install pigpio
+vim adc.py
+python adc.py
+vim adc.py
+python adc.py
+sudo pip install pigpio
+pigs pigpv
+pigs
+sudo pigpiod
+pigs
+sudo pigpiod
+rm pigpio.zip
+wget abyz.me.uk/rpi/pigpio/pigpio.zip
+unzip pigpio.zip 
+ls
+cd PIGPIO/
+make
+sudo make install
+sudo pigpiod
+vim adc.py
+vim ../adc.py 
+cd ..
+python adc.py
+whereis pigpio
+whereis pigpiod
+lsmod
+sudo pigpiod
+python adc.py
+reboot
+sudo reboot
