@@ -629,3 +629,4 @@ sudo pigpiod
 python adc.py
 reboot
 sudo reboot
+ls

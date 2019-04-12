@@ -19,7 +19,7 @@ IO.setup(pin[5], IO.IN)
 IO.setup(pin[6], IO.IN)
 IO.setup(pin[7], IO.IN)
 
-while len(v) < 100:
+while len(v) < 1000:
     print("hellow")
     if(IO.input(pin[7]) == True): b[7] = 1
     if(IO.input(pin[6]) == True): b[6] = 1

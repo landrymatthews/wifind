@@ -3,9 +3,9 @@ import pigpio
 
 GPIO = 5
 square = []
-
-square.append(pigpio.pulse(1<<GPIO, 0, 400))
-square.append(pigpio.pulse(0, 1<<GPIO, 400))
+freq = 20
+square.append(pigpio.pulse(1<<GPIO, 0, freq))
+square.append(pigpio.pulse(0, 1<<GPIO, freq))
 
 pi = pigpio.pi()
 
