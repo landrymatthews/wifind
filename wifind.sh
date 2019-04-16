@@ -49,11 +49,11 @@ while true; do
 
 
 		echo Checking for open channels...
-		# CHANNEL SWITCHING ALGORITHM -> python switchChannel.py	
+		# CHANNEL SWITCHING ALGORITHM -> python analyzeData.py	
 			# This python script will analyze the data saved 
 			# by specScan.py and determine if there are any 
 			# channels that would provide a better connection
-		OPEN_CHANNEL="$(python switchChannel.py)" 
+		OPEN_CHANNEL="$(python analyzeData.py)" 
 		sleep 2
 		# If the script returned 0 then there were no open channels. 
 		if [ $OPEN_CHANNEL -ne 0 ]; then

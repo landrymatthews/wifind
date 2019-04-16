@@ -70,7 +70,11 @@ for i in range(len(channel)):
     a,b,c = calc_abc(channel[i]-2, xaxis, channel[i], strength[i], channel[i]+2, xaxis)
     y=(a*(x**2)) + (b*x) + c
     plt.plot(x,y)
-
-    
-
 plt.savefig('specplot.pdf', bbox_inches='tight')
+
+
+
+
+
+#for i in range(len(channel)):
+
