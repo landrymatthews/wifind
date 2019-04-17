@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-
 channel = []
 strength = []
 ssid = []
@@ -76,5 +75,31 @@ plt.savefig('specplot.pdf', bbox_inches='tight')
 
 
 
-#for i in range(len(channel)):
+max1 = -100
+max6 = -100
+max11 = -100
+for i in range(len(channel)):
+    if channel[i] == 1 and strength[i] > max1:
+        max1 = strength[i]
+        temp1 = i
+    if channel[i] == 6 and strength[i] > max6:
+        max6 = strength[i]
+        temp6 = i
+    if channel[i] == 11 and strength[i] > max11:
+        max11 = strength[i]
+        temp11 = i
 
+min_str = min(max1, max6, max11)
+
+if max1 <= max6 and max1 <= max11:
+    print('channel 1 is the best')
+    best_chan = 1
+elif max6 <= max1 and max6 <= max11:
+    print('channel 6 is the best')
+    best_chan = 6
+elif max11 <= max1 and max11 <= max6:
+    print('channel 11 is the best')
+    best_chan = 11
+
+print("The software has the determined that the best channel to switch to is channel " + str(best_chan) + " based on it having the lowest signal peak of " + str(min_str) + "\n")
+print(best_chan)
