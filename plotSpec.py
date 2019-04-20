@@ -93,6 +93,7 @@ for i in range(len(channel)):
 min_str = min(max1, max6, max11)
 
 ################## LED ####################
+# order: green -> yellow -> orange -> red
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 redpin = 22

@@ -682,3 +682,190 @@ vim ./change_channel.sh
 git add .
 git commit -m 'msh'
 git push
+ls
+./change_channel.sh 11
+./change_channel.sh 6
+history
+history | init
+history | grep init
+sudo /etc/init.d/hostapd start 
+./change_channel.sh 6
+./change_channel.sh 11
+vim plotSpec.py 
+sudo ./wifind.sh 
+vim plotSpec.py 
+vim ./wifind.sh 
+vim change_channel.sh 
+vim ./wifind.sh 
+sudo ./wifind.sh 
+git config --global credential.helper store
+git push https://github.com/landrymatthews/wifind.git
+git add .
+git commit -m 'msh'
+git push 
+vim wifind.sh
+sudo ./wifind.sh 
+./change_channel.sh 11
+sudo ./wifind.sh 
+vim wifind.sh
+sudo ./wifind.sh 
+vim wifind.sh 
+sudo ./wifind.sh 
+vim wifind.sh 
+vim wifind.sh 0
+ls
+vim wifind.sh
+sudo ./wifind.sh 0
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+git config --global user.email "landry.matthews@gmail.com"
+git config --global user.name "Landry"
+sudo ./wifind.sh 42
+history
+git config --global user.name "landry.matthews"
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+git add .
+git commit -m 'does this work '
+git push 
+vim wifind.sh
+sudo ./wifind.sh 42
+history | grep git
+git config --global credential.helper store
+git push https://github.com/landrymatthews/wifind
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+git config --global -l
+whoami
+./wifind.sh 42
+git config --system user.email "landry.matthews@gmail.com"
+sudo git config --system user.email "landry.matthews@gmail.com"
+./wifind.sh 42
+history | grep git
+git config --system credential.helper store 
+sudo git config --system credential.helper store 
+sudo ./wifind.sh 42
+vim wifind.sh
+vim change_channel.sh 
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+./change_channel.sh 1
+man time
+vim wifind.sh
+sudo ./wifind.sh 42
+./change_channel.sh 1
+vim wifind.sh\
+vim wifind.sh
+sudo ./wifind.sh 42
+vim wifind.sh
+sudo ./wifind.sh 42
+vim plotSpec.py 
+sudo shutdown
+shutdown -c
+sudo shutdown -c
+sudo shutdown -r now
+ls
+cat specScan.py 
+rm specScan.py 
+ls
+cat squarewave.py 
+cat .
+cat *
+ls
+cat acc_test.sh 
+ls
+mv acc_test.sh acc_test.txt
+ls
+clear
+ls
+cat adc_code.c 
+clear
+ls
+cat adcPlot.py 
+cat adc.py 
+ls
+mkdir adc_stuff
+mv adc_code.c adcplot.pdf adcPlot.py adc.py adc_stuff
+ls
+cat analyzeData.py 
+rm analyzeData.py 
+ls
+cat change_channel.sh 
+ls
+cat data.csv 
+ls
+mv data.csv adc_stuff/
+ls
+cat plotSpecO
+cat plotSpecOutput.txt 
+ls
+cat plotSpec.py 
+ls
+cat pwm_code.py 
+ls
+mv pwm_code.py adc_stuff/
+ls
+cat readADC.sh 
+mv readADC.sh adc_stuff/
+ls
+cat router.log 
+ls
+cat scan.txt
+cat squarewave.py 
+mv squarewave.py adc_stuff/
+ls
+rm scan.txt 
+ls
+cat specValues.csv 
+ls
+ls ./adc_stuff/
+ls
+cat *
+ls
+ls ./adc_stuff/
+cd adc_stuff/
+cat *
+cat * | grep specVal
+cd ..
+cat * | grep specVal
+cd adc_stuff/
+ls
+cat adc_code.c | grep specValu
+cat adcPlot.py | grep specValu
+cat * | grep data.csv
+cd ..
+cat * | grep data.csv
+cd ..
+cd -
+cd adc_stuff/
+cat adc_code.c | grep data.csv
+cat adcPlot.py | grep data.csv
+cat adc.py | grep data.csv
+wc -l data.csv 
+cd ..
+mv specValues.csv adc_stuff/
+cd adc_stuff/
+ls
+wc -l specValues.csv 
+cat * | grep data.csv
+cat * | grep specValues.csv
+rm data.csv 
+ls
+cd ..
+ls
+history | grep hostapd
+sudo /etc/init.d/hostapd start 
