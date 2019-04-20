@@ -1,45 +1,54 @@
-                    channel:5
-                    strength:51  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:5
-                    strength:55  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:7
-                    strength:61  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:10
-                    strength:76  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:11
-                    strength:49  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:7
-                    strength:85  
-                    ESSID:"HP-Print-C5-Officejet Pro 8620"
-                    channel:7
-                    strength:67  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:4
+                    channel:1
                     strength:84  
                     ESSID:"WhiteSky-PublicWiFi"
-                    channel:52
-                    strength:70  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:52
-                    strength:66  
+                    channel:11
+                    strength:53  
                     ESSID:"WhiteSky-PublicWiFi"
-                    channel:52
-                    strength:65  
+                    channel:11
+                    strength:62  
                     ESSID:""
-                    channel:60
-                    strength:80  
+                    channel:11
+                    strength:78  
+                    ESSID:"NETGEAR19"
+                    channel:5
+                    strength:78  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:5
-                    strength:48  
+                    strength:80  
+                    ESSID:"HP-Print-C5-Officejet Pro 8620"
+                    channel:6
+                    strength:61  
                     ESSID:"WhiteSky-PublicWiFi"
-                    channel:44
+                    channel:6
+                    strength:66  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:10
+                    strength:74  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:8
+                    strength:62  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:8
+                    strength:64  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:11
+                    strength:54  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:10
+                    strength:80  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:60
                     strength:77  
-                    ESSID:""
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:3
+                    strength:53  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                     channel:7
-                    strength:82  
+                    strength:80  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:1
+                    strength:84  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:1
+                    strength:85  
                     ESSID:"WhiteSky-PublicWiFi"

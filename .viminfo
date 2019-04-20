@@ -15,19 +15,21 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1555466337,,"wq"
-:wqall
-|2,0,1555466231,,"wqall"
+|2,0,1555730064,,"wq"
 :w
-|2,0,1555466221,,"w"
+|2,0,1555729900,,"w"
+:set number
+|2,0,1555729359,,"set number"
+:q
+|2,0,1555707263,,"q"
+:wqall
+|2,0,1555704841,,"wqall"
+:vsp led.py
+|2,0,1555704133,,"vsp led.py"
 :vsp wifind.sh
 |2,0,1555466112,,"vsp wifind.sh"
-:q
-|2,0,1555465332,,"q"
 :q!
 |2,0,1555464781,,"q!"
-:set number
-|2,0,1555453707,,"set number"
 :vsp plotSpec.py
 |2,0,1555453179,,"vsp plotSpec.py"
 :qall
@@ -78,183 +80,48 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    best_chan = 11
-|3,0,0,1,1,0,1555450185,"    best_chan = 11"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1555466160,""
-"2	BLOCK	3
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-|3,0,2,2,50,3,1555465621,"    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "
-"3	BLOCK	4
-	    c
-	    s
-	    s
-	    w
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	     
-	    
-	    c
-	    s
-	    d
-	     
-	    s
-	    d
-	    f
-	     
-	     
-	     
-	     
-	     
-	    
-	    p
-	    p
-	    p
-	    p
-	    p
-	    p
-	    
-	    p
-	    p
-	    p
-	    p
-	    p
-	    p
-	    p
-	    
-	    
-	    
-	    d
-	     
-	     
-|3,0,3,2,50,4,1555465611,"    c","    s","    s","    w","     ","     ","     ","     ","     ","     ","     ","     ","     ","     ","     ","     ","    ","    c","    s","    d","     ","    s","    d","    f","     ","     ","     ","     ","     ","    ","    p","    p","    p","    p","    p","    p","    ","    p","    p","    p","    p","    p","    p","    p","    ","    ","    ","    d","     ","     "
+""0	LINE	0
+				if [ $BEST_CHAN -eq 1 ]; then
+					echo channel 1 is the best.
+					echo To test the behavior we will switch to channel 6 instead and observe..
+					sudo bash ./change_channel.sh 6
+					continue
+				fi
+|3,1,0,1,6,0,1555730015,"			if [ $BEST_CHAN -eq 1 ]; then","				echo channel 1 is the best.","				echo To test the behavior we will switch to channel 6 instead and observe..","				sudo bash ./change_channel.sh 6","				continue","			fi"
+"1	LINE	0
+				echo 
+|3,0,1,1,1,0,1555729947,"			echo "
+"2	LINE	0
+	echo $channel
+|3,0,2,1,1,0,1555729870,"echo $channel"
+"3	LINE	0
+	GPIO.output(4,GPIO.LOW)
+|3,0,3,1,1,0,1555704700,"GPIO.output(4,GPIO.LOW)"
 "4	LINE	0
-	def main_fn():
-|3,0,4,1,1,0,1555465592,"def main_fn():"
-"5	BLOCK	3
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-|3,0,5,2,50,3,1555465586,"    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    ","    "
+	GPIO.output(25,GPIO.LOW)
+|3,0,4,1,1,0,1555704583,"GPIO.output(25,GPIO.LOW)"
+"5	LINE	0
+	GPIO.output(15,GPIO.LOW)
+|3,0,5,1,1,0,1555704582,"GPIO.output(15,GPIO.LOW)"
 "6	LINE	0
-	def main_fn():
-|3,0,6,1,1,0,1555465501,"def main_fn():"
+	time.sleep(1)
+|3,0,6,1,1,0,1555704559,"time.sleep(1)"
 "7	LINE	0
-	def main_fn():
-|3,0,7,1,1,0,1555465463,"def main_fn():"
+	GPIO.output(15,GPIO.LOW)
+|3,0,7,1,1,0,1555704551,"GPIO.output(15,GPIO.LOW)"
 "8	LINE	0
-	    return best_chan
-|3,0,8,1,1,0,1555465359,"    return best_chan"
+	
+|3,0,8,1,1,0,1555704528,""
 "9	LINE	0
-	if __name__ == "__main__":
-|3,0,9,1,1,0,1555465358,"if __name__ == \"__main__\":"
+	################## LED ####################
+	
+	GPIO.setmode(GPIO.BCM)
+	GPIO.setwarnings(False)
+	GPIO.setup(18,GPIO.OUT)
+	time.sleep(1)
+	GPIO.output(18,GPIO.LOW)
+	
+|3,0,9,1,8,0,1555704523,"################## LED ####################","","GPIO.setmode(GPIO.BCM)","GPIO.setwarnings(False)","GPIO.setup(18,GPIO.OUT)","time.sleep(1)","GPIO.output(18,GPIO.LOW)",""
 "k	CHAR	0
 	kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjsddd€kb€kb€kb
 |3,0,20,0,1,0,1551328395,"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjsddd€kb€kb€kb"
@@ -262,298 +129,240 @@
 	
 |3,0,26,0,1,0,1554352285,""
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1555465539," "
+	switch 
+|3,0,36,0,1,0,1555729772,"switch "
 
 # File marks:
-'0  7  32  ~/change_channel.sh
-|4,48,7,32,1555466337,"~/change_channel.sh"
-'1  11  0  ~/change_channel.sh
-|4,49,11,0,1555466231,"~/change_channel.sh"
-'2  11  0  ~/change_channel.sh
-|4,50,11,0,1555466231,"~/change_channel.sh"
-'3  27  44  ~/wifind.sh
-|4,51,27,44,1555465933,"~/wifind.sh"
-'4  27  44  ~/wifind.sh
-|4,52,27,44,1555465933,"~/wifind.sh"
-'5  105  0  ~/plotSpec.py
-|4,53,105,0,1555465629,"~/plotSpec.py"
-'6  106  19  ~/plotSpec.py
-|4,54,106,19,1555465425,"~/plotSpec.py"
-'7  27  44  ~/wifind.sh
-|4,55,27,44,1555465332,"~/wifind.sh"
-'8  27  44  ~/wifind.sh
-|4,56,27,44,1555465332,"~/wifind.sh"
-'9  27  44  ~/wifind.sh
-|4,57,27,44,1555465242,"~/wifind.sh"
+'0  51  34  ~/wifind.sh
+|4,48,51,34,1555730064,"~/wifind.sh"
+'1  6  12  ~/change_channel.sh
+|4,49,6,12,1555729911,"~/change_channel.sh"
+'2  37  7  ~/wifind.sh
+|4,50,37,7,1555729840,"~/wifind.sh"
+'3  37  7  ~/wifind.sh
+|4,51,37,7,1555729840,"~/wifind.sh"
+'4  119  17  ~/plotSpec.py
+|4,52,119,17,1555729342,"~/plotSpec.py"
+'5  120  10  ~/plotSpec.py
+|4,53,120,10,1555729242,"~/plotSpec.py"
+'6  120  10  ~/plotSpec.py
+|4,54,120,10,1555729242,"~/plotSpec.py"
+'7  38  10  ~/wifind.sh
+|4,55,38,10,1555707272,"~/wifind.sh"
+'8  35  10  ~/wifind.sh
+|4,56,35,10,1555707272,"~/wifind.sh"
+'9  39  10  ~/wifind.sh
+|4,57,39,10,1555707272,"~/wifind.sh"
 
 # Jumplist (newest first):
--'  7  32  ~/change_channel.sh
-|4,39,7,32,1555466337,"~/change_channel.sh"
--'  11  0  ~/change_channel.sh
-|4,39,11,0,1555466328,"~/change_channel.sh"
--'  11  0  ~/change_channel.sh
-|4,39,11,0,1555466231,"~/change_channel.sh"
--'  9  28  ~/change_channel.sh
-|4,39,9,28,1555465952,"~/change_channel.sh"
--'  9  28  ~/change_channel.sh
-|4,39,9,28,1555465952,"~/change_channel.sh"
--'  27  44  ~/wifind.sh
-|4,39,27,44,1555465933,"~/wifind.sh"
--'  27  44  ~/wifind.sh
-|4,39,27,44,1555465933,"~/wifind.sh"
--'  27  44  ~/wifind.sh
-|4,39,27,44,1555465933,"~/wifind.sh"
--'  27  44  ~/wifind.sh
-|4,39,27,44,1555465933,"~/wifind.sh"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  105  0  ~/plotSpec.py
-|4,39,105,0,1555465629,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  8  0  ~/plotSpec.py
-|4,39,8,0,1555465627,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  9  0  ~/plotSpec.py
-|4,39,9,0,1555465591,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  10  4  ~/plotSpec.py
-|4,39,10,4,1555465590,"~/plotSpec.py"
--'  11  0  ~/plotSpec.py
-|4,39,11,0,1555465590,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  23  0  ~/plotSpec.py
-|4,39,23,0,1555465589,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  15  0  ~/plotSpec.py
-|4,39,15,0,1555465542,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  7  4  ~/plotSpec.py
-|4,39,7,4,1555465500,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  92  0  ~/plotSpec.py
-|4,39,92,0,1555465499,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  106  19  ~/plotSpec.py
-|4,39,106,19,1555465425,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
--'  105  173  ~/plotSpec.py
-|4,39,105,173,1555465346,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
--'  105  173  ~/plotSpec.py
-|4,39,105,173,1555465346,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
--'  105  173  ~/plotSpec.py
-|4,39,105,173,1555465346,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
--'  105  173  ~/plotSpec.py
-|4,39,105,173,1555465346,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
--'  105  173  ~/plotSpec.py
-|4,39,105,173,1555465346,"~/plotSpec.py"
--'  104  173  ~/plotSpec.py
-|4,39,104,173,1555465346,"~/plotSpec.py"
+-'  51  34  ~/wifind.sh
+|4,39,51,34,1555730064,"~/wifind.sh"
+-'  37  7  ~/wifind.sh
+|4,39,37,7,1555729913,"~/wifind.sh"
+-'  6  12  ~/change_channel.sh
+|4,39,6,12,1555729911,"~/change_channel.sh"
+-'  6  12  ~/change_channel.sh
+|4,39,6,12,1555729911,"~/change_channel.sh"
+-'  37  7  ~/wifind.sh
+|4,39,37,7,1555729840,"~/wifind.sh"
+-'  37  7  ~/wifind.sh
+|4,39,37,7,1555729840,"~/wifind.sh"
+-'  38  10  ~/wifind.sh
+|4,39,38,10,1555729352,"~/wifind.sh"
+-'  39  10  ~/wifind.sh
+|4,39,39,10,1555729352,"~/wifind.sh"
+-'  39  10  ~/wifind.sh
+|4,39,39,10,1555729352,"~/wifind.sh"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  119  17  ~/plotSpec.py
+|4,39,119,17,1555729342,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729311,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  120  10  ~/plotSpec.py
+|4,39,120,10,1555729242,"~/plotSpec.py"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  35  10  ~/wifind.sh
+|4,39,35,10,1555707272,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  16  6  ~/wifind.sh
+|4,39,16,6,1555707265,"~/wifind.sh"
+-'  33  86  ~/wifind.sh
+|4,39,33,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  33  86  ~/wifind.sh
+|4,39,33,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  33  86  ~/wifind.sh
+|4,39,33,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555706116,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  32  86  ~/wifind.sh
+|4,39,32,86,1555705949,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  29  0  ~/wifind.sh
+|4,39,29,0,1555704934,"~/wifind.sh"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  117  27  ~/plotSpec.py
+|4,39,117,27,1555704841,"~/plotSpec.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/change_channel.sh
-	*	1555466335	0
-	"	7	32
-	^	7	33
-	.	7	32
-	+	11	170
-	+	11	0
-	+	12	0
-	+	10	62
-	+	11	24
-	+	13	22
-	+	9	28
-	+	5	24
-	+	9	0
-	+	7	27
-	+	9	0
-	+	8	3
-	+	10	0
-	+	14	1
-	+	7	32
-
 > ~/wifind.sh
-	*	1555466124	0
-	"	26	40
-	^	27	45
-	.	27	44
-	+	43	18
-	+	47	12
-	+	62	62
-	+	70	39
-	+	75	0
-	+	72	4
-	+	71	40
-	+	72	0
-	+	68	3
-	+	70	3
-	+	71	4
-	+	72	6
-	+	72	0
-	+	71	3
-	+	72	6
-	+	75	0
-	+	72	3
-	+	71	4
-	+	70	3
-	+	68	3
-	+	70	0
-	+	75	0
-	+	68	0
-	+	66	0
-	+	70	0
-	+	25	176
-	+	81	74
-	+	81	46
-	+	81	27
-	+	81	25
-	+	81	41
-	+	81	55
-	+	81	37
-	+	81	1
-	+	22	0
-	+	25	69
-	+	25	70
+	*	1555730060	0
+	"	51	34
+	^	51	35
+	.	51	34
 	+	25	98
 	+	25	294
 	+	25	176
@@ -573,7 +382,7 @@
 	+	21	0
 	+	20	38
 	+	25	74
-	+	43	25
+	+	75	25
 	+	25	72
 	+	25	176
 	+	25	107
@@ -581,148 +390,227 @@
 	+	25	0
 	+	25	176
 	+	24	0
-	+	31	0
+	+	63	0
 	+	12	19
-	+	43	22
-	+	62	23
-	+	43	26
-	+	80	0
-	+	81	1
-	+	81	0
-	+	34	0
+	+	75	22
+	+	94	23
+	+	75	26
+	+	112	0
+	+	113	1
+	+	113	0
+	+	66	0
 	+	25	56
-	+	33	0
-	+	30	0
+	+	65	0
+	+	62	0
 	+	26	19
 	+	1	12
 	+	4	7
-	+	80	0
+	+	112	0
 	+	12	23
 	+	6	39
-	+	59	35
-	+	55	52
+	+	91	35
+	+	87	52
 	+	26	34
 	+	25	26
 	+	1	12
 	+	26	0
-	+	35	0
+	+	67	0
 	+	29	10
 	+	26	7
 	+	26	0
 	+	29	0
 	+	13	7
 	+	22	2
-	+	79	8
+	+	111	8
 	+	22	0
 	+	29	32
 	+	26	41
 	+	27	44
+	+	111	9
+	+	31	16
+	+	29	41
+	+	61	0
+	+	29	0
+	+	60	0
+	+	60	2
+	+	60	0
+	+	59	3
+	+	38	11
+	+	58	3
+	+	37	33
+	+	33	86
+	+	38	0
+	+	31	16
+	+	34	31
+	+	10	1
+	+	30	65
+	+	35	30
+	+	36	78
+	+	37	33
+	+	37	0
+	+	39	2
+	+	38	3
+	+	37	3
+	+	36	3
+	+	35	3
+	+	39	4
+	+	47	3
+	+	41	23
+	+	42	17
+	+	43	57
+	+	44	35
+	+	48	24
+	+	49	18
+	+	50	56
+	+	51	34
+
+> ~/change_channel.sh
+	*	1555729910	0
+	"	6	12
+	^	6	13
+	.	6	12
+	+	10	170
+	+	10	0
+	+	11	0
+	+	9	62
+	+	10	24
+	+	12	22
+	+	8	28
+	+	4	24
+	+	8	0
+	+	6	27
+	+	8	0
+	+	7	3
+	+	9	0
+	+	13	1
+	+	6	32
+	+	4	0
+	+	8	17
+	+	6	12
 
 > ~/plotSpec.py
-	*	1555465627	0
-	"	105	0
-	^	10	0
-	.	8	0
-	+	48	54
-	+	48	44
-	+	48	37
-	+	48	73
-	+	48	39
-	+	48	84
-	+	48	41
-	+	48	37
-	+	48	40
-	+	48	52
-	+	48	77
-	+	48	61
-	+	48	37
-	+	48	53
-	+	48	37
-	+	48	64
-	+	48	41
-	+	48	42
-	+	48	54
-	+	48	115
-	+	48	60
-	+	48	37
-	+	48	64
-	+	48	123
-	+	48	60
-	+	48	85
-	+	48	117
-	+	48	85
-	+	105	0
-	+	48	66
+	*	1555729336	0
+	"	119	17
+	^	120	19
+	.	120	18
+	+	85	17
+	+	88	16
+	+	91	18
+	+	109	0
 	+	94	0
-	+	48	60
-	+	48	37
-	+	48	43
-	+	48	37
-	+	48	58
-	+	48	59
-	+	48	60
-	+	48	45
-	+	48	59
-	+	48	61
-	+	48	37
-	+	94	4
-	+	48	60
-	+	94	0
-	+	48	82
-	+	48	37
-	+	48	63
-	+	48	83
-	+	48	58
-	+	86	21
-	+	89	26
-	+	84	17
-	+	87	16
-	+	90	18
-	+	94	0
-	+	93	0
-	+	94	0
-	+	98	0
-	+	99	0
-	+	96	16
-	+	99	16
-	+	100	22
-	+	103	83
-	+	103	0
-	+	104	174
-	+	104	0
-	+	104	160
-	+	105	15
-	+	100	2
-	+	97	2
-	+	98	34
-	+	101	34
-	+	7	0
-	+	105	0
-	+	9	0
-	+	7	13
-	+	105	0
-	+	105	9
-	+	7	8
-	+	105	19
-	+	105	11
-	+	7	13
-	+	78	8
-	+	79	11
-	+	80	4
-	+	79	14
-	+	78	10
-	+	104	173
-	+	105	0
-	+	105	20
-	+	104	181
-	+	7	0
-	+	92	0
-	+	7	0
-	+	9	0
+	+	109	0
+	+	114	0
+	+	115	0
+	+	111	16
+	+	115	16
+	+	117	22
+	+	121	83
+	+	121	0
+	+	127	174
+	+	127	0
+	+	127	160
+	+	128	15
+	+	117	2
+	+	113	2
+	+	114	34
+	+	118	34
 	+	8	0
+	+	128	0
+	+	10	0
+	+	8	13
+	+	128	0
+	+	128	9
+	+	8	8
+	+	128	19
+	+	128	11
+	+	8	13
+	+	79	8
+	+	80	11
+	+	81	4
+	+	80	14
+	+	79	10
+	+	127	173
+	+	128	0
+	+	128	20
+	+	127	181
+	+	8	0
+	+	93	0
+	+	8	0
+	+	10	0
 	+	9	0
 	+	10	0
-	+	8	0
+	+	11	0
+	+	9	0
+	+	2	0
+	+	125	0
+	+	125	24
+	+	125	43
+	+	125	0
+	+	117	0
+	+	125	0
+	+	95	0
+	+	96	0
+	+	101	11
+	+	104	0
+	+	104	12
+	+	104	0
+	+	102	0
+	+	103	13
+	+	102	13
+	+	104	0
+	+	112	16
+	+	115	16
+	+	116	0
+	+	120	18
+	+	116	17
+	+	105	0
+	+	106	0
+	+	109	0
+	+	105	0
+	+	106	0
+	+	109	0
+	+	106	13
+	+	107	24
+	+	109	0
+	+	112	26
+	+	116	27
+	+	120	27
+	+	100	11
+	+	101	12
+	+	102	12
+	+	103	12
+	+	101	16
+	+	102	18
+	+	103	17
+	+	105	17
+	+	106	19
+	+	107	18
+	+	112	23
+	+	116	23
+	+	120	22
+	+	99	12
+	+	98	10
+	+	100	11
+	+	112	22
+	+	120	18
+
+> ~/led.py
+	*	1555704163	0
+	"	3	0
+	^	11	0
+	.	10	24
+	+	10	24
+
+> ~/plotSpec
+	*	1555704120	0
+	"	1	0
+
+> /etc/hostapd/hostapd.conf
+	*	1555703778	0
+	"	4	8
+	^	4	13
+	.	4	13
+	+	4	13
 
 > ~/readADC.sh
 	*	1555464900	0
@@ -739,13 +627,6 @@
 	+	1	1
 	+	2	12
 	+	6	21
-
-> /etc/hostapd/hostapd.conf
-	*	1555464779	0
-	"	4	12
-	^	4	13
-	.	4	13
-	+	4	13
 
 > ~/specScan.py
 	*	1555453243	0
@@ -1055,13 +936,6 @@
 > ~/specplot.pdf
 	*	1553710415	0
 	"	1	0
-
-> ~/led.py
-	*	1553228696	0
-	"	11	0
-	^	11	0
-	.	10	24
-	+	10	24
 
 > /etc/default/hostapd
 	*	1549499716	0

@@ -630,3 +630,55 @@ python adc.py
 reboot
 sudo reboot
 ls
+lsmod
+lsmod | less
+history | less
+sudo /etc/hostapd/hostapd /etc/hostapd/hostapd.conf 
+sudo apt install hostapd
+history 
+sudo /etc/hostapd/hostapd /etc/hostapd/hostapd.conf 
+sudo service hostapd start 
+ls
+sudo ./change_channel.sh 11
+sudo service hostapd start 
+sudo service hostapd
+sudo /etc/init.d/hostapd start 
+sudo ./change_channel.sh 11
+sudo ./wifind.sh
+vim wifind.sh 
+sudo ./wifind.sh
+ls
+sudo /etc/init.d/hostapd start 
+cat /etc/hostapd/hostapd.conf 
+vim /etc/hostapd/hostapd.conf 
+sudo ./change_channel.sh 11
+vim wifind.sh 
+ls
+vim readADC.sh 
+vim wifind.sh 
+sudo ./wifind.sh
+cat /etc/hostapd/hostapd.conf 
+sudo ./change_channel.sh 11
+vim wifind.sh 
+vim plotSpec.py
+python plotSpec.py 
+vim plotSpec.py
+python plotSpec.py 
+:wq
+git add .
+git commit -m 'testing decision'
+git push 
+sudo ./wifind.sh
+vim wifind.sh 
+vim ./change_channel.sh
+ls
+cat /etc/hostapd/hostapd.conf 
+ls
+sudo ./change_channel.sh 1
+sudo ./change_channel.sh 11
+sudo ./change_channel.sh 1
+sudo ./wifind.sh 
+vim ./change_channel.sh
+git add .
+git commit -m 'msh'
+git push

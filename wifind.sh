@@ -7,7 +7,7 @@ while true; do
 	PREV_RETX='0'
 	RETX_DIFF=`expr $RETX_COUNT - $PREV_RETX`
 	PREV_RETX=$RETX_COUNT
-	echo $RETX_DIFF packets retransmitted since last check
+	#echo $RETX_DIFF packets retransmitted since last check
 
 	if [ $RETX_DIFF -gt -1 ]; then
 		echo PACKET LOSS DETECTED
@@ -26,7 +26,39 @@ while true; do
 		python plotSpec.py > plotSpecOutput.txt
 		BEST_CHAN="$(tail -n 1 plotSpecOutput.txt)"
 		echo $BEST_CHAN
+
+		# 42 is a random number we chose to trigger the acceptance test
+		if [ $1 -eq 42 ]; then
+			# acceptance test #
+			# test 1 # - switch to bad channel, watch router find and switch to better channel. 
+			if [ $BEST_CHAN -eq 1 ]; then
+				echo channel 1 is the best.
+				echo To test the behavior we will switch to channel 6 instead and observe..
+				sudo bash ./change_channel.sh 6
+				continue
+			fi
+
+			if [ $BEST_CHAN -eq 6 ]; then
+				echo channel 6 is the best.
+				echo To test the behavior we will switch to channel 11 instead and observe..
+				sudo bash ./change_channel.sh 11
+				continue
+			fi
+			
+			if [ $BEST_CHAN -eq 11 ]; then
+				echo channel 11 is the best.
+				echo To test the behavior we will switch to channel 1 instead and observe..
+				sudo bash ./change_channel.sh 1
+				continue
+			fi
+			#test 2 - spec plot comparison- automatically push to github #
+
+			# test 3 - unix time stamp for channel switching. find time network was down
+
+			
+		fi
 		sudo bash ./change_channel.sh $BEST_CHAN
+
 
 
 
@@ -76,6 +108,6 @@ while true; do
 		# 	echo No open channels were available. Will check again in 5 min
 		# fi	
 	fi
-	sleep 60
+	sleep 500
 done
 

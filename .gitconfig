@@ -1,3 +1,5 @@
 [user]
 	email = landry.matthews@gmail.com
 	name = landry.matthews@gmail.com
+[credential]
+	helper = store

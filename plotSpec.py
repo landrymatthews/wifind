@@ -1,4 +1,5 @@
 import time
+import RPi.GPIO as GPIO
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -91,15 +92,37 @@ for i in range(len(channel)):
 
 min_str = min(max1, max6, max11)
 
+################## LED ####################
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+redpin = 22
+greenpin = 17
+bluepin = 27
+GPIO.setup(redpin,GPIO.OUT)
+GPIO.setup(greenpin,GPIO.OUT)
+GPIO.setup(bluepin,GPIO.OUT)
+
+GPIO.output(redpin,GPIO.LOW)
+GPIO.output(greenpin,GPIO.LOW)
+GPIO.output(bluepin,GPIO.LOW)
+
 if max1 <= max6 and max1 <= max11:
     print('channel 1 is the best')
     best_chan = 1
+    GPIO.output(bluepin,GPIO.HIGH)
 elif max6 <= max1 and max6 <= max11:
     print('channel 6 is the best')
     best_chan = 6
+    GPIO.output(greenpin,GPIO.HIGH)
 elif max11 <= max1 and max11 <= max6:
     print('channel 11 is the best')
     best_chan = 11
+    GPIO.output(redpin,GPIO.HIGH)
+
+
+
+
+
 
 print("The software has the determined that the best channel to switch to is channel " + str(best_chan) + " based on it having the lowest signal peak of " + str(min_str) + "\n")
 print(best_chan)
