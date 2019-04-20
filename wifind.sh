@@ -64,7 +64,7 @@ while true; do
 			echo "Pushing most recent spectrum chart to GitHub..."
 			git add .
 			git commit -m 'push from the script'
-			git push https://github.com/landrymatthews/wifind
+			git push
 			echo "Complete! Please refresh the page to see the new graph"
 
 			# test 3 - unix time stamp for channel switching. find time network was down
