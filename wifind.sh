@@ -59,11 +59,13 @@ while true; do
 				fi
 			fi
 
-			sudo bash ./change_channel.sh $BEST_CHAN
+			#test 2 - spec plot comparison- automatically push to github #
+			time sudo bash ./change_channel.sh $BEST_CHAN
 			echo Test 1 Complete.
 			sleep 3
-			#test 2 - spec plot comparison- automatically push to github #
-			echo "PERFORMING TEST 2 - CHART COMPARISON"
+
+			#test 3 - spec plot comparison- automatically push to github #
+			echo "PERFORMING TEST 3 - CHART COMPARISON"
 			echo "Pushing most recent spectrum chart to GitHub..."
 			git add .
 			git commit -m 'push from the script'

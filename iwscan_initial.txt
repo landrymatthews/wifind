@@ -1,8 +1,8 @@
                     Frequency:2.437 GHz (Channel 6)
-                    Quality=52/70  Signal level=-58 dBm  
+                    Quality=55/70  Signal level=-55 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.457 GHz (Channel 10)
-                    Quality=30/70  Signal level=-80 dBm  
+                    Quality=33/70  Signal level=-77 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.447 GHz (Channel 8)
                     Quality=45/70  Signal level=-65 dBm  
@@ -11,56 +11,41 @@
                     Quality=30/70  Signal level=-80 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:5.3 GHz (Channel 60)
-                    Quality=29/70  Signal level=-81 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=59/70  Signal level=-51 dBm  
+                    Quality=34/70  Signal level=-76 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.447 GHz (Channel 8)
-                    Quality=44/70  Signal level=-66 dBm  
+                    Quality=46/70  Signal level=-64 dBm  
                     ESSID:"WhiteSky-Arlington"
-                    Frequency:5.785 GHz
-                    Quality=36/70  Signal level=-74 dBm  
-                    ESSID:""
-                    Frequency:2.447 GHz (Channel 8)
-                    Quality=60/70  Signal level=-50 dBm  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                     Frequency:2.462 GHz (Channel 11)
-                    Quality=31/70  Signal level=-79 dBm  
+                    Quality=34/70  Signal level=-76 dBm  
                     ESSID:"NETGEAR19"
-                    Frequency:2.442 GHz (Channel 7)
-                    Quality=32/70  Signal level=-78 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.457 GHz (Channel 10)
-                    Quality=31/70  Signal level=-79 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=57/70  Signal level=-53 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:2.412 GHz (Channel 1)
-                    Quality=25/70  Signal level=-85 dBm  
+                    Quality=30/70  Signal level=-80 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.412 GHz (Channel 1)
-                    Quality=27/70  Signal level=-83 dBm  
+                    Quality=24/70  Signal level=-86 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.437 GHz (Channel 6)
-                    Quality=47/70  Signal level=-63 dBm  
+                    Quality=49/70  Signal level=-61 dBm  
                     ESSID:"WhiteSky-Arlington"
                     Frequency:5.785 GHz
-                    Quality=37/70  Signal level=-73 dBm  
+                    Quality=39/70  Signal level=-71 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=57/70  Signal level=-53 dBm  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=29/70  Signal level=-81 dBm  
-                    ESSID:"HP-Print-C5-Officejet Pro 8620"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=45/70  Signal level=-65 dBm  
+                    ESSID:""
+                    Frequency:5.785 GHz
+                    Quality=37/70  Signal level=-73 dBm  
+                    ESSID:"WhiteSky-Arlington"
+                    Frequency:5.805 GHz
+                    Quality=31/70  Signal level=-79 dBm  
+                    ESSID:""
                     Frequency:2.432 GHz (Channel 5)
                     Quality=33/70  Signal level=-77 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
                     Frequency:2.442 GHz (Channel 7)
                     Quality=27/70  Signal level=-83 dBm  
                     ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=48/70  Signal level=-62 dBm  
-                    ESSID:""
+                    Frequency:2.457 GHz (Channel 10)
+                    Quality=33/70  Signal level=-77 dBm  
+                    ESSID:"DIRECT-E9-HP ENVY 4520 series"
