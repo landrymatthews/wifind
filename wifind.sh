@@ -1,5 +1,6 @@
 #!/bin/bash
 
+COUNT=0
 while true; do
 	sleep 1
 	RETX_COUNT=`sudo netstat -s | grep retransmitted | sudo awk '{print $1}'`
@@ -8,10 +9,9 @@ while true; do
 	RETX_DIFF=`expr $RETX_COUNT - $PREV_RETX`
 	PREV_RETX=$RETX_COUNT
 	#echo $RETX_DIFF packets retransmitted since last check
-
 	if [ $RETX_DIFF -gt -1 ]; then
 		echo PACKET LOSS DETECTED
-	
+
 		# Getting spectrum data from drivers
 		# NOTE: this cannot scan the spectrum
 		# for *any* interference like our custom
@@ -25,37 +25,51 @@ while true; do
 		sed -E 's/Quality=.* Signal level=-(.*) dBm/strength:\1/' iwscan_initial.txt | sed 's/Frequency.* GHz //' | sed -e '/Frequency/,+2d' | sed -E 's/\(Channel (.*)\)/channel:\1/' > iwscan.txt
 		python plotSpec.py > plotSpecOutput.txt
 		BEST_CHAN="$(tail -n 1 plotSpecOutput.txt)"
-		echo $BEST_CHAN
+		echo The best channel was determined to be channel $BEST_CHAN
 
 		# 42 is a random number we chose to trigger the acceptance test
-		if [ $1 -eq 42 ]; then
+		if [ "$1" -eq "42" ]; then
+			echo "ACCEPTANCE TEST TRIGGERED. STARTING..."
 			# acceptance test #
 			# test 1 # - switch to bad channel, watch router find and switch to better channel. 
-			if [ $BEST_CHAN -eq 1 ]; then
-				echo channel 1 is the best.
-				echo To test the behavior we will switch to channel 6 instead and observe..
-				sudo bash ./change_channel.sh 6
-				continue
+			if [ $COUNT -eq 0 ]; then
+				echo "PERFORMING TEST 1 - WRONG CHANNEL"
+				if [ $BEST_CHAN -eq 1 ]; then
+					echo channel 1 is the best.
+					echo To test the behavior we will switch to channel 6 instead and observe..
+					sudo bash ./change_channel.sh 6
+					COUNT=1
+					continue
+				fi
+
+				if [ $BEST_CHAN -eq 6 ]; then
+					echo channel 6 is the best.
+					echo To test the behavior we will switch to channel 11 instead and observe..
+					sudo bash ./change_channel.sh 11
+					COUNT=1
+					continue
+				fi
+
+				if [ $BEST_CHAN -eq 11 ]; then
+					echo channel 11 is the best.
+					echo To test the behavior we will switch to channel 1 instead and observe..
+					sudo bash ./change_channel.sh 1
+					COUNT=1
+					continue
+				fi
 			fi
 
-			if [ $BEST_CHAN -eq 6 ]; then
-				echo channel 6 is the best.
-				echo To test the behavior we will switch to channel 11 instead and observe..
-				sudo bash ./change_channel.sh 11
-				continue
-			fi
-			
-			if [ $BEST_CHAN -eq 11 ]; then
-				echo channel 11 is the best.
-				echo To test the behavior we will switch to channel 1 instead and observe..
-				sudo bash ./change_channel.sh 1
-				continue
-			fi
 			#test 2 - spec plot comparison- automatically push to github #
+			echo "PERFORMING TEST 2 - CHART COMPARISON"
+			echo "Pushing most recent spectrum chart to GitHub..."
+			git add .
+			git commit -m 'push from the script'
+			git push https://github.com/landrymatthews/wifind
+			echo "Complete! Please refresh the page to see the new graph"
 
 			# test 3 - unix time stamp for channel switching. find time network was down
 
-			
+
 		fi
 		sudo bash ./change_channel.sh $BEST_CHAN
 

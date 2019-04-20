@@ -15,15 +15,15 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1555730064,,"wq"
+|2,0,1555732808,,"wq"
 :w
-|2,0,1555729900,,"w"
+|2,0,1555731431,,"w"
+:wqall
+|2,0,1555730889,,"wqall"
 :set number
-|2,0,1555729359,,"set number"
+|2,0,1555730744,,"set number"
 :q
 |2,0,1555707263,,"q"
-:wqall
-|2,0,1555704841,,"wqall"
 :vsp led.py
 |2,0,1555704133,,"vsp led.py"
 :vsp wifind.sh
@@ -80,48 +80,37 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-				if [ $BEST_CHAN -eq 1 ]; then
-					echo channel 1 is the best.
-					echo To test the behavior we will switch to channel 6 instead and observe..
-					sudo bash ./change_channel.sh 6
-					continue
-				fi
-|3,1,0,1,6,0,1555730015,"			if [ $BEST_CHAN -eq 1 ]; then","				echo channel 1 is the best.","				echo To test the behavior we will switch to channel 6 instead and observe..","				sudo bash ./change_channel.sh 6","				continue","			fi"
-"1	LINE	0
-				echo 
-|3,0,1,1,1,0,1555729947,"			echo "
+"0	LINE	0
+				echo "PERFORMING TEST 1 - WRONG CHANNEL"
+|3,0,0,1,1,0,1555731494,"			echo \"PERFORMING TEST 1 - WRONG CHANNEL\""
+""1	LINE	0
+				# acceptance test #
+				# test 1 # - switch to bad channel, watch router find and switch to better channel. 
+|3,1,1,1,2,0,1555731957,"			# acceptance test #","			# test 1 # - switch to bad channel, watch router find and switch to better channel. "
 "2	LINE	0
-	echo $channel
-|3,0,2,1,1,0,1555729870,"echo $channel"
+		COUNT=0
+|3,0,2,1,1,0,1555731836,"	COUNT=0"
 "3	LINE	0
-	GPIO.output(4,GPIO.LOW)
-|3,0,3,1,1,0,1555704700,"GPIO.output(4,GPIO.LOW)"
+	1 
+|3,0,3,1,1,0,1555731567,"1 "
 "4	LINE	0
-	GPIO.output(25,GPIO.LOW)
-|3,0,4,1,1,0,1555704583,"GPIO.output(25,GPIO.LOW)"
+				echo 
+|3,0,4,1,1,0,1555729947,"			echo "
 "5	LINE	0
-	GPIO.output(15,GPIO.LOW)
-|3,0,5,1,1,0,1555704582,"GPIO.output(15,GPIO.LOW)"
+	echo $channel
+|3,0,5,1,1,0,1555729870,"echo $channel"
 "6	LINE	0
-	time.sleep(1)
-|3,0,6,1,1,0,1555704559,"time.sleep(1)"
+	GPIO.output(4,GPIO.LOW)
+|3,0,6,1,1,0,1555704700,"GPIO.output(4,GPIO.LOW)"
 "7	LINE	0
-	GPIO.output(15,GPIO.LOW)
-|3,0,7,1,1,0,1555704551,"GPIO.output(15,GPIO.LOW)"
+	GPIO.output(25,GPIO.LOW)
+|3,0,7,1,1,0,1555704583,"GPIO.output(25,GPIO.LOW)"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1555704528,""
+	GPIO.output(15,GPIO.LOW)
+|3,0,8,1,1,0,1555704582,"GPIO.output(15,GPIO.LOW)"
 "9	LINE	0
-	################## LED ####################
-	
-	GPIO.setmode(GPIO.BCM)
-	GPIO.setwarnings(False)
-	GPIO.setup(18,GPIO.OUT)
 	time.sleep(1)
-	GPIO.output(18,GPIO.LOW)
-	
-|3,0,9,1,8,0,1555704523,"################## LED ####################","","GPIO.setmode(GPIO.BCM)","GPIO.setwarnings(False)","GPIO.setup(18,GPIO.OUT)","time.sleep(1)","GPIO.output(18,GPIO.LOW)",""
+|3,0,9,1,1,0,1555704559,"time.sleep(1)"
 "k	CHAR	0
 	kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjsddd€kb€kb€kb
 |3,0,20,0,1,0,1551328395,"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjsddd€kb€kb€kb"
@@ -129,340 +118,340 @@
 	
 |3,0,26,0,1,0,1554352285,""
 "-	CHAR	0
-	switch 
-|3,0,36,0,1,0,1555729772,"switch "
+	&
+|3,0,36,0,1,0,1555731941,"&"
 
 # File marks:
-'0  51  34  ~/wifind.sh
-|4,48,51,34,1555730064,"~/wifind.sh"
-'1  6  12  ~/change_channel.sh
-|4,49,6,12,1555729911,"~/change_channel.sh"
-'2  37  7  ~/wifind.sh
-|4,50,37,7,1555729840,"~/wifind.sh"
-'3  37  7  ~/wifind.sh
-|4,51,37,7,1555729840,"~/wifind.sh"
-'4  119  17  ~/plotSpec.py
-|4,52,119,17,1555729342,"~/plotSpec.py"
-'5  120  10  ~/plotSpec.py
-|4,53,120,10,1555729242,"~/plotSpec.py"
-'6  120  10  ~/plotSpec.py
-|4,54,120,10,1555729242,"~/plotSpec.py"
-'7  38  10  ~/wifind.sh
-|4,55,38,10,1555707272,"~/wifind.sh"
-'8  35  10  ~/wifind.sh
-|4,56,35,10,1555707272,"~/wifind.sh"
-'9  39  10  ~/wifind.sh
-|4,57,39,10,1555707272,"~/wifind.sh"
+'0  67  51  ~/wifind.sh
+|4,48,67,51,1555732808,"~/wifind.sh"
+'1  62  64  ~/wifind.sh
+|4,49,62,64,1555732407,"~/wifind.sh"
+'2  62  64  ~/wifind.sh
+|4,50,62,64,1555732407,"~/wifind.sh"
+'3  32  47  ~/wifind.sh
+|4,51,32,47,1555732353,"~/wifind.sh"
+'4  32  47  ~/wifind.sh
+|4,52,32,47,1555732353,"~/wifind.sh"
+'5  32  47  ~/wifind.sh
+|4,53,32,47,1555732353,"~/wifind.sh"
+'6  32  47  ~/wifind.sh
+|4,54,32,47,1555732353,"~/wifind.sh"
+'7  3  0  ~/wifind.sh
+|4,55,3,0,1555731842,"~/wifind.sh"
+'8  3  0  ~/wifind.sh
+|4,56,3,0,1555731842,"~/wifind.sh"
+'9  3  0  ~/wifind.sh
+|4,57,3,0,1555731842,"~/wifind.sh"
 
 # Jumplist (newest first):
--'  51  34  ~/wifind.sh
-|4,39,51,34,1555730064,"~/wifind.sh"
--'  37  7  ~/wifind.sh
-|4,39,37,7,1555729913,"~/wifind.sh"
--'  6  12  ~/change_channel.sh
-|4,39,6,12,1555729911,"~/change_channel.sh"
--'  6  12  ~/change_channel.sh
-|4,39,6,12,1555729911,"~/change_channel.sh"
--'  37  7  ~/wifind.sh
-|4,39,37,7,1555729840,"~/wifind.sh"
--'  37  7  ~/wifind.sh
-|4,39,37,7,1555729840,"~/wifind.sh"
--'  38  10  ~/wifind.sh
-|4,39,38,10,1555729352,"~/wifind.sh"
--'  39  10  ~/wifind.sh
-|4,39,39,10,1555729352,"~/wifind.sh"
--'  39  10  ~/wifind.sh
-|4,39,39,10,1555729352,"~/wifind.sh"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  119  17  ~/plotSpec.py
-|4,39,119,17,1555729342,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729311,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  120  10  ~/plotSpec.py
-|4,39,120,10,1555729242,"~/plotSpec.py"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  35  10  ~/wifind.sh
-|4,39,35,10,1555707272,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  16  6  ~/wifind.sh
-|4,39,16,6,1555707265,"~/wifind.sh"
--'  33  86  ~/wifind.sh
-|4,39,33,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  33  86  ~/wifind.sh
-|4,39,33,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  33  86  ~/wifind.sh
-|4,39,33,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555706116,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  32  86  ~/wifind.sh
-|4,39,32,86,1555705949,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  29  0  ~/wifind.sh
-|4,39,29,0,1555704934,"~/wifind.sh"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
--'  117  27  ~/plotSpec.py
-|4,39,117,27,1555704841,"~/plotSpec.py"
+-'  67  51  ~/wifind.sh
+|4,39,67,51,1555732808,"~/wifind.sh"
+-'  62  64  ~/wifind.sh
+|4,39,62,64,1555732790,"~/wifind.sh"
+-'  62  64  ~/wifind.sh
+|4,39,62,64,1555732407,"~/wifind.sh"
+-'  1  0  ~/wifind.sh
+|4,39,1,0,1555732376,"~/wifind.sh"
+-'  1  0  ~/wifind.sh
+|4,39,1,0,1555732376,"~/wifind.sh"
+-'  60  4  ~/wifind.sh
+|4,39,60,4,1555732375,"~/wifind.sh"
+-'  60  4  ~/wifind.sh
+|4,39,60,4,1555732375,"~/wifind.sh"
+-'  32  47  ~/wifind.sh
+|4,39,32,47,1555732363,"~/wifind.sh"
+-'  32  47  ~/wifind.sh
+|4,39,32,47,1555732363,"~/wifind.sh"
+-'  32  47  ~/wifind.sh
+|4,39,32,47,1555732353,"~/wifind.sh"
+-'  1  0  ~/wifind.sh
+|4,39,1,0,1555731965,"~/wifind.sh"
+-'  33  3  ~/wifind.sh
+|4,39,33,3,1555731964,"~/wifind.sh"
+-'  33  3  ~/wifind.sh
+|4,39,33,3,1555731964,"~/wifind.sh"
+-'  33  3  ~/wifind.sh
+|4,39,33,3,1555731964,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731899,"~/wifind.sh"
+-'  31  23  ~/wifind.sh
+|4,39,31,23,1555731899,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731899,"~/wifind.sh"
+-'  31  23  ~/wifind.sh
+|4,39,31,23,1555731899,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731899,"~/wifind.sh"
+-'  31  23  ~/wifind.sh
+|4,39,31,23,1555731899,"~/wifind.sh"
+-'  3  0  ~/wifind.sh
+|4,39,3,0,1555731882,"~/wifind.sh"
+-'  3  0  ~/wifind.sh
+|4,39,3,0,1555731882,"~/wifind.sh"
+-'  3  0  ~/wifind.sh
+|4,39,3,0,1555731882,"~/wifind.sh"
+-'  3  0  ~/wifind.sh
+|4,39,3,0,1555731842,"~/wifind.sh"
+-'  31  39  ~/wifind.sh
+|4,39,31,39,1555731696,"~/wifind.sh"
+-'  31  39  ~/wifind.sh
+|4,39,31,39,1555731654,"~/wifind.sh"
+-'  68  63  ~/wifind.sh
+|4,39,68,63,1555731639,"~/wifind.sh"
+-'  66  63  ~/wifind.sh
+|4,39,66,63,1555731639,"~/wifind.sh"
+-'  68  63  ~/wifind.sh
+|4,39,68,63,1555731639,"~/wifind.sh"
+-'  66  63  ~/wifind.sh
+|4,39,66,63,1555731639,"~/wifind.sh"
+-'  68  63  ~/wifind.sh
+|4,39,68,63,1555731639,"~/wifind.sh"
+-'  66  63  ~/wifind.sh
+|4,39,66,63,1555731639,"~/wifind.sh"
+-'  66  63  ~/wifind.sh
+|4,39,66,63,1555731639,"~/wifind.sh"
+-'  66  63  ~/wifind.sh
+|4,39,66,63,1555731588,"~/wifind.sh"
+-'  31  42  ~/wifind.sh
+|4,39,31,42,1555731467,"~/wifind.sh"
+-'  31  42  ~/wifind.sh
+|4,39,31,42,1555731439,"~/wifind.sh"
+-'  57  4  ~/wifind.sh
+|4,39,57,4,1555731382,"~/wifind.sh"
+-'  56  4  ~/wifind.sh
+|4,39,56,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731382,"~/wifind.sh"
+-'  57  4  ~/wifind.sh
+|4,39,57,4,1555731382,"~/wifind.sh"
+-'  56  4  ~/wifind.sh
+|4,39,56,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731382,"~/wifind.sh"
+-'  57  4  ~/wifind.sh
+|4,39,57,4,1555731382,"~/wifind.sh"
+-'  56  4  ~/wifind.sh
+|4,39,56,4,1555731382,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731382,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731382,"~/wifind.sh"
+-'  55  4  ~/wifind.sh
+|4,39,55,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731382,"~/wifind.sh"
+-'  54  4  ~/wifind.sh
+|4,39,54,4,1555731189,"~/wifind.sh"
+-'  52  2  ~/wifind.sh
+|4,39,52,2,1555731026,"~/wifind.sh"
+-'  51  2  ~/wifind.sh
+|4,39,51,2,1555731026,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  52  2  ~/wifind.sh
+|4,39,52,2,1555731026,"~/wifind.sh"
+-'  51  2  ~/wifind.sh
+|4,39,51,2,1555731026,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  52  2  ~/wifind.sh
+|4,39,52,2,1555731026,"~/wifind.sh"
+-'  51  2  ~/wifind.sh
+|4,39,51,2,1555731026,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555731026,"~/wifind.sh"
+-'  48  2  ~/wifind.sh
+|4,39,48,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  48  2  ~/wifind.sh
+|4,39,48,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  50  2  ~/wifind.sh
+|4,39,50,2,1555730911,"~/wifind.sh"
+-'  49  2  ~/wifind.sh
+|4,39,49,2,1555730911,"~/wifind.sh"
+-'  48  2  ~/wifind.sh
+|4,39,48,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  48  2  ~/wifind.sh
+|4,39,48,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  48  2  ~/wifind.sh
+|4,39,48,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  47  2  ~/wifind.sh
+|4,39,47,2,1555730911,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730906,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730889,"~/wifind.sh"
+-'  28  7  ~/wifind.sh
+|4,39,28,7,1555730880,"~/wifind.sh"
+-'  31  27  ~/wifind.sh
+|4,39,31,27,1555730876,"~/wifind.sh"
+-'  31  27  ~/wifind.sh
+|4,39,31,27,1555730876,"~/wifind.sh"
+-'  31  27  ~/wifind.sh
+|4,39,31,27,1555730876,"~/wifind.sh"
+-'  31  27  ~/wifind.sh
+|4,39,31,27,1555730876,"~/wifind.sh"
+-'  31  19  ~/wifind.sh
+|4,39,31,19,1555730779,"~/wifind.sh"
+-'  31  7  ~/wifind.sh
+|4,39,31,7,1555730573,"~/wifind.sh"
+-'  59  0  ~/wifind.sh
+|4,39,59,0,1555730511,"~/wifind.sh"
+-'  58  0  ~/wifind.sh
+|4,39,58,0,1555730511,"~/wifind.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/wifind.sh
-	*	1555730060	0
-	"	51	34
-	^	51	35
-	.	51	34
-	+	25	98
-	+	25	294
-	+	25	176
-	+	25	346
-	+	25	176
-	+	21	58
-	+	22	78
-	+	25	60
-	+	21	57
-	+	23	75
-	+	25	261
-	+	25	255
-	+	21	83
-	+	23	11
-	+	25	254
-	+	20	37
-	+	21	0
-	+	20	38
-	+	25	74
-	+	75	25
-	+	25	72
-	+	25	176
-	+	25	107
-	+	25	94
-	+	25	0
-	+	25	176
-	+	24	0
-	+	63	0
-	+	12	19
-	+	75	22
-	+	94	23
-	+	75	26
-	+	112	0
-	+	113	1
-	+	113	0
-	+	66	0
+	*	1555732807	0
+	"	67	51
+	^	67	52
+	.	67	51
+	+	108	23
+	+	89	26
+	+	126	0
+	+	127	1
+	+	127	0
+	+	80	0
 	+	25	56
-	+	65	0
-	+	62	0
+	+	79	0
+	+	76	0
 	+	26	19
 	+	1	12
-	+	4	7
-	+	112	0
+	+	5	7
+	+	126	0
 	+	12	23
-	+	6	39
-	+	91	35
-	+	87	52
+	+	7	39
+	+	105	35
+	+	101	52
 	+	26	34
 	+	25	26
 	+	1	12
 	+	26	0
-	+	67	0
+	+	81	0
 	+	29	10
 	+	26	7
 	+	26	0
 	+	29	0
 	+	13	7
 	+	22	2
-	+	111	8
+	+	125	8
 	+	22	0
 	+	29	32
 	+	26	41
 	+	27	44
-	+	111	9
+	+	125	9
 	+	31	16
 	+	29	41
-	+	61	0
+	+	75	0
 	+	29	0
-	+	60	0
-	+	60	2
-	+	60	0
-	+	59	3
-	+	38	11
-	+	58	3
-	+	37	33
-	+	33	86
-	+	38	0
+	+	74	0
+	+	74	2
+	+	74	0
+	+	73	3
+	+	42	11
+	+	72	3
+	+	40	33
+	+	36	86
+	+	42	0
 	+	31	16
-	+	34	31
-	+	10	1
+	+	37	31
+	+	11	1
 	+	30	65
-	+	35	30
-	+	36	78
-	+	37	33
-	+	37	0
-	+	39	2
+	+	38	30
+	+	39	78
+	+	40	33
+	+	40	0
+	+	43	2
+	+	42	3
+	+	40	3
+	+	39	3
 	+	38	3
-	+	37	3
-	+	36	3
-	+	35	3
-	+	39	4
-	+	47	3
-	+	41	23
-	+	42	17
-	+	43	57
-	+	44	35
-	+	48	24
-	+	49	18
-	+	50	56
-	+	51	34
+	+	43	4
+	+	52	3
+	+	45	23
+	+	46	17
+	+	47	57
+	+	48	35
+	+	53	24
+	+	54	18
+	+	55	56
+	+	56	34
+	+	62	65
+	+	69	0
+	+	62	65
+	+	31	19
+	+	28	52
+	+	28	0
+	+	12	7
+	+	49	10
+	+	41	0
+	+	57	0
+	+	31	42
+	+	36	42
+	+	63	46
+	+	64	56
+	+	69	0
+	+	68	63
+	+	31	39
+	+	12	0
+	+	3	0
+	+	35	11
+	+	31	27
+	+	36	0
+	+	33	0
+	+	14	0
+	+	32	47
+	+	60	0
+	+	62	0
+	+	61	0
+	+	63	0
+	+	67	51
 
 > ~/change_channel.sh
 	*	1555729910	0
