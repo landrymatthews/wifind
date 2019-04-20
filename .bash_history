@@ -869,3 +869,13 @@ cd ..
 ls
 history | grep hostapd
 sudo /etc/init.d/hostapd start 
+ping google.com
+sudo /etc/init.d/hostapd start
+vim plotSpec.py
+sudo ./wifind.sh 42
+sudo ./wifind.sh 42 > acc_test_output.txt
+cat acc_test_output.txt ~~
+sudo ./wifind.sh
+sudo ./wifind.sh 0
+vim wifind.sh 
+sudo ./wifind.sh 0

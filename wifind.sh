@@ -79,6 +79,8 @@ while true; do
 			break
 
 		fi
+		sudo bash ./change_channel.sh $BEST_CHAN
+	
 
 
 

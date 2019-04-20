@@ -29,3 +29,9 @@ Channel hopping time can be seen above as the time after real.
 Test 2 Complete.
 PERFORMING TEST 3 - CHART COMPARISON
 Pushing most recent spectrum chart to GitHub...
+[master d425a25] push from the script
+ 5 files changed, 164 insertions(+), 113 deletions(-)
+ create mode 100644 acc_test_output.txt
+ rewrite plotSpecOutput.txt (71%)
+Complete! Please refresh the page to see the new graph
+ALL TESTS COMPLETE. ACCEPTANCE TEST OVER
