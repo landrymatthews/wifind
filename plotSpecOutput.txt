@@ -1,29 +1,25 @@
 channels: 
-[6, 10, 8, 10, 8, 11, 10, 1, 6, 11, 5, 7, 10, 7, 11, 1, 1, 3, 11]
+[6, 10, 8, 10, 8, 11, 1, 6, 5, 7, 7, 11, 3, 11, 10]
 strengths: 
-[-54, -80, -60, -78, -64, -78, -78, -81, -60, -61, -74, -79, -76, -80, -55, -84, -83, -52, -55]
+[-61, -80, -63, -80, -65, -81, -84, -66, -80, -77, -82, -54, -53, -55, -76]
 ssids: 
-['WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'NETGEAR19', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', '', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'DIRECT-E9-HP ENVY 4520 series', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', 'WhiteSky-Arlington']
--10.0, 120.0, -414.0
+['WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'NETGEAR19', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', 'WhiteSky-Arlington', 'DIRECT-E9-HP ENVY 4520 series']
+-8.25, 99.0, -358.0
 -3.5, 70.0, -430.0
--8.5, 136.0, -604.0
--4.0, 80.0, -478.0
--7.5, 120.0, -544.0
--4.0, 88.0, -562.0
--4.0, 80.0, -478.0
--3.25, 6.5, -84.25
--8.5, 102.0, -366.0
--8.25, 181.5, -1059.25
--5.0, 50.0, -199.0
--3.75, 52.5, -262.75
--4.5, 90.0, -526.0
--3.5, 49.0, -251.5
--9.75, 214.5, -1234.75
+-7.75, 124.0, -559.0
+-3.5, 70.0, -430.0
+-7.25, 116.0, -529.0
+-3.25, 71.5, -474.25
 -2.5, 5.0, -86.5
--2.75, 5.5, -85.75
--10.5, 63.0, -146.5
+-7.0, 84.0, -318.0
+-3.5, 35.0, -167.5
+-4.25, 59.5, -285.25
+-3.0, 42.0, -229.0
+-10.0, 220.0, -1264.0
+-10.25, 61.5, -145.25
 -9.75, 214.5, -1234.75
+-4.5, 90.0, -526.0
 channel 1 is the best
-The software has the determined that the best channel to switch to is channel 1 based on it having the lowest signal peak of -81
+The software has the determined that the best channel to switch to is channel 1 based on it having the lowest signal peak of -84
 
 1

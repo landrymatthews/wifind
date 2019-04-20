@@ -59,7 +59,7 @@ while true; do
 				fi
 			fi
 
-			#test 2 - spec plot comparison- automatically push to github #
+			# test 2 - unix time stamp for channel switching. find time network was down
 			echo BEGINNING TEST 2 - HOP TIME
 			time sudo bash ./change_channel.sh $BEST_CHAN
 			echo Test 1 Complete.
@@ -73,14 +73,11 @@ while true; do
 			git add .
 			git commit -m 'push from the script'
 			git push
+			sleep 2
 			echo "Complete! Please refresh the page to see the new graph"
-
-			# test 3 - unix time stamp for channel switching. find time network was down
-
+			echo "ALL TESTS COMPLETE. ACCEPTANCE TEST OVER"
 
 		fi
-
-
 
 
 
@@ -100,9 +97,6 @@ while true; do
 		# else
 		# 	echo Spectrum data saved
 		# fi
-
-
-
 
 		# echo Checking for open channels...
 		# # CHANNEL SWITCHING ALGORITHM -> python analyzeData.py	
@@ -129,6 +123,7 @@ while true; do
 		# 	echo No open channels were available. Will check again in 5 min
 		# fi	
 	fi
+	# sleep for 8 min 20 seconds
 	sleep 500
 done
 
