@@ -1,0 +1,31 @@
+PACKET LOSS DETECTED
+The best channel was determined to be channel 1
+ACCEPTANCE TEST TRIGGERED. STARTING...
+PERFORMING TEST 1 - WRONG CHANNEL
+channel 1 is the best.
+To test the behavior we will switch to channel 6 instead and observe..
+Router is currently on channel 1
+Router now switching to channel 6
+Selected interface 'wlan0'
+OK
+Selected interface 'wlan0'
+OK
+Selected interface 'wlan0'
+OK
+PACKET LOSS DETECTED
+The best channel was determined to be channel 1
+ACCEPTANCE TEST TRIGGERED. STARTING...
+BEGINNING TEST 2 - HOP TIME
+Router is currently on channel 6
+Router now switching to channel 1
+Selected interface 'wlan0'
+OK
+Selected interface 'wlan0'
+OK
+Selected interface 'wlan0'
+OK
+Test 1 Complete.
+Channel hopping time can be seen above as the time after real.
+Test 2 Complete.
+PERFORMING TEST 3 - CHART COMPARISON
+Pushing most recent spectrum chart to GitHub...
