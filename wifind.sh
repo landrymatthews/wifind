@@ -59,6 +59,9 @@ while true; do
 				fi
 			fi
 
+			sudo bash ./change_channel.sh $BEST_CHAN
+			echo Test 1 Complete.
+			sleep 3
 			#test 2 - spec plot comparison- automatically push to github #
 			echo "PERFORMING TEST 2 - CHART COMPARISON"
 			echo "Pushing most recent spectrum chart to GitHub..."
@@ -71,7 +74,6 @@ while true; do
 
 
 		fi
-		sudo bash ./change_channel.sh $BEST_CHAN
 
 
 

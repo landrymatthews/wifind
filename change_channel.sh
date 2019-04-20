@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source /etc/hostapd/hostapd.conf
-echo Router is current on channel $channel
+echo Router is currently on channel $channel
 if [ $channel -eq $1 ] ; then
 	echo Router already on the BEST channel
 else
