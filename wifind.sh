@@ -76,6 +76,7 @@ while true; do
 			sleep 2
 			echo "Complete! Please refresh the page to see the new graph"
 			echo "ALL TESTS COMPLETE. ACCEPTANCE TEST OVER"
+			break
 
 		fi
 
