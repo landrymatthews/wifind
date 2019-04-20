@@ -60,8 +60,11 @@ while true; do
 			fi
 
 			#test 2 - spec plot comparison- automatically push to github #
+			echo BEGINNING TEST 2 - HOP TIME
 			time sudo bash ./change_channel.sh $BEST_CHAN
 			echo Test 1 Complete.
+			echo Channel hopping time can be seen above as the time after real.
+			echo Test 2 Complete.
 			sleep 3
 
 			#test 3 - spec plot comparison- automatically push to github #
