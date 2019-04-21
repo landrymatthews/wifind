@@ -1,14 +1,14 @@
                     channel:1
-                    strength:61  
+                    strength:58  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:7
-                    strength:79  
+                    strength:78  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:8
-                    strength:71  
+                    strength:68  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:10
-                    strength:83  
+                    strength:77  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:36
                     strength:67  
@@ -17,32 +17,41 @@
                     strength:63  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:11
-                    strength:69  
+                    strength:76  
                     ESSID:"NETGEAR19"
                     channel:7
-                    strength:82  
+                    strength:85  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:60
-                    strength:82  
+                    strength:80  
                     ESSID:"WhiteSky-PublicWiFi"
-                    channel:5
-                    strength:82  
-                    ESSID:"HP-Print-C5-Officejet Pro 8620"
                     channel:10
-                    strength:82  
+                    strength:81  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:36
-                    strength:59  
+                    strength:58  
                     ESSID:""
+                    channel:11
+                    strength:59  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:11
+                    strength:59  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:1
+                    strength:66  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:2
+                    strength:82  
+                    ESSID:"HP-Print-C5-Officejet Pro 8620"
+                    channel:8
+                    strength:58  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:11
+                    strength:84  
+                    ESSID:"WiFi Hotspot 3366"
                     channel:11
                     strength:50  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:11
-                    strength:58  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:11
-                    strength:57  
+                    channel:8
+                    strength:69  
                     ESSID:"WhiteSky-Arlington"
-                    channel:10
-                    strength:80  
-                    ESSID:"DIRECT-E9-HP ENVY 4520 series"
