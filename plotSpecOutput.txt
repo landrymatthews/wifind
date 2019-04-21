@@ -1,19 +1,21 @@
 channels: 
-[1, 1, 7, 8, 10, 11, 11, 11, 7, 11]
+[1, 7, 8, 10, 11, 7, 5, 10, 11, 11, 11, 10]
 strengths: 
-[-61, -66, -80, -72, -80, -61, -60, -75, -83, -86]
+[-61, -79, -71, -83, -69, -82, -82, -82, -50, -58, -57, -80]
 ssids: 
-['WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'NETGEAR19', 'WhiteSky-PublicWiFi', 'Cast TV4922.e003']
--8.75, 17.5, -69.75
--7.5, 15.0, -73.5
--4.0, 56.0, -276.0
--6.0, 96.0, -456.0
--4.0, 80.0, -480.0
--8.75, 192.5, -1119.75
--9.0, 198.0, -1149.0
--5.25, 115.5, -710.25
--3.25, 45.5, -242.25
--2.5, 55.0, -388.5
+['WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'NETGEAR19', 'WhiteSky-PublicWiFi', 'HP-Print-C5-Officejet Pro 8620', 'WhiteSky-PublicWiFi', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'DIRECT-E9-HP ENVY 4520 series']
+-8.0, 16.0, -69.0
+-3.5, 49.0, -250.5
+-5.5, 88.0, -423.0
+-2.5, 50.0, -333.0
+-6.0, 132.0, -795.0
+-2.75, 38.5, -216.75
+-2.75, 27.5, -150.75
+-2.75, 55.0, -357.0
+-10.75, 236.5, -1350.75
+-8.75, 192.5, -1116.75
+-9.0, 198.0, -1146.0
+-3.25, 65.0, -405.0
 channel 6 is the best
 The software has the determined that the best channel to switch to is channel 6 based on it having the lowest signal peak of -100
 

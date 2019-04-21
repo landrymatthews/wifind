@@ -10,7 +10,7 @@ while true; do
 	PREV_RETX=$RETX_COUNT
 	#echo $RETX_DIFF packets retransmitted since last check
 	if [ $RETX_DIFF -gt -1 ]; then
-		echo PACKET LOSS DETECTED
+		#echo PACKET LOSS DETECTED
 
 		# Getting spectrum data from drivers
 		# NOTE: this cannot scan the spectrum
