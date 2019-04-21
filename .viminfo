@@ -14,10 +14,10 @@
 ~MSle0~/print
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1555797270,,"wq"
 :q
-|2,0,1555796354,,"q"
+|2,0,1555813800,,"q"
+:wq
+|2,0,1555798299,,"wq"
 :w
 |2,0,1555737053,,"w"
 :wqall
@@ -119,30 +119,44 @@
 |3,0,36,0,1,0,1555736224,"2 "
 
 # File marks:
-'0  82  41  ~/wifind.sh
-|4,48,82,41,1555797270,"~/wifind.sh"
-'1  96  40  ~/plotSpec.py
-|4,49,96,40,1555796354,"~/plotSpec.py"
-'2  96  40  ~/plotSpec.py
-|4,50,96,40,1555737318,"~/plotSpec.py"
-'3  79  7  ~/wifind.sh
-|4,51,79,7,1555737163,"~/wifind.sh"
-'4  79  7  ~/wifind.sh
-|4,52,79,7,1555737163,"~/wifind.sh"
-'5  129  28  ~/wifind.sh
-|4,53,129,28,1555737108,"~/wifind.sh"
-'6  128  28  ~/wifind.sh
-|4,54,128,28,1555737108,"~/wifind.sh"
-'7  127  28  ~/wifind.sh
-|4,55,127,28,1555737108,"~/wifind.sh"
-'8  126  28  ~/wifind.sh
-|4,56,126,28,1555737108,"~/wifind.sh"
-'9  63  34  ~/wifind.sh
-|4,57,63,34,1555736881,"~/wifind.sh"
+'0  64  1  ~/wifind.sh
+|4,48,64,1,1555813800,"~/wifind.sh"
+'1  130  8  ~/wifind.sh
+|4,49,130,8,1555798299,"~/wifind.sh"
+'2  130  8  ~/wifind.sh
+|4,50,130,8,1555798299,"~/wifind.sh"
+'3  82  41  ~/wifind.sh
+|4,51,82,41,1555797270,"~/wifind.sh"
+'4  82  41  ~/wifind.sh
+|4,52,82,41,1555797270,"~/wifind.sh"
+'5  82  41  ~/wifind.sh
+|4,53,82,41,1555797270,"~/wifind.sh"
+'6  82  41  ~/wifind.sh
+|4,54,82,41,1555797270,"~/wifind.sh"
+'7  96  40  ~/plotSpec.py
+|4,55,96,40,1555796354,"~/plotSpec.py"
+'8  96  40  ~/plotSpec.py
+|4,56,96,40,1555737318,"~/plotSpec.py"
+'9  79  7  ~/wifind.sh
+|4,57,79,7,1555737163,"~/wifind.sh"
 
 # Jumplist (newest first):
+-'  64  1  ~/wifind.sh
+|4,39,64,1,1555813800,"~/wifind.sh"
+-'  130  8  ~/wifind.sh
+|4,39,130,8,1555811887,"~/wifind.sh"
+-'  130  8  ~/wifind.sh
+|4,39,130,8,1555798299,"~/wifind.sh"
+-'  82  41  ~/wifind.sh
+|4,39,82,41,1555798276,"~/wifind.sh"
+-'  82  41  ~/wifind.sh
+|4,39,82,41,1555798276,"~/wifind.sh"
 -'  82  41  ~/wifind.sh
 |4,39,82,41,1555797270,"~/wifind.sh"
+-'  79  7  ~/wifind.sh
+|4,39,79,7,1555797037,"~/wifind.sh"
+-'  79  7  ~/wifind.sh
+|4,39,79,7,1555797037,"~/wifind.sh"
 -'  79  7  ~/wifind.sh
 |4,39,79,7,1555797037,"~/wifind.sh"
 -'  96  40  ~/plotSpec.py
@@ -150,9 +164,57 @@
 -'  96  40  ~/plotSpec.py
 |4,39,96,40,1555796354,"~/plotSpec.py"
 -'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
 |4,39,96,40,1555737318,"~/plotSpec.py"
 -'  96  40  ~/plotSpec.py
 |4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  96  40  ~/plotSpec.py
+|4,39,96,40,1555737318,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
+-'  120  17  ~/plotSpec.py
+|4,39,120,17,1555737274,"~/plotSpec.py"
 -'  120  17  ~/plotSpec.py
 |4,39,120,17,1555737274,"~/plotSpec.py"
 -'  120  17  ~/plotSpec.py
@@ -173,6 +235,14 @@
 |4,39,129,28,1555737151,"~/wifind.sh"
 -'  127  28  ~/wifind.sh
 |4,39,127,28,1555737151,"~/wifind.sh"
+-'  129  28  ~/wifind.sh
+|4,39,129,28,1555737151,"~/wifind.sh"
+-'  127  28  ~/wifind.sh
+|4,39,127,28,1555737151,"~/wifind.sh"
+-'  129  28  ~/wifind.sh
+|4,39,129,28,1555737151,"~/wifind.sh"
+-'  127  28  ~/wifind.sh
+|4,39,127,28,1555737151,"~/wifind.sh"
 -'  127  28  ~/wifind.sh
 |4,39,127,28,1555737151,"~/wifind.sh"
 -'  127  28  ~/wifind.sh
@@ -183,12 +253,36 @@
 |4,39,128,28,1555737108,"~/wifind.sh"
 -'  126  28  ~/wifind.sh
 |4,39,126,28,1555737108,"~/wifind.sh"
+-'  128  28  ~/wifind.sh
+|4,39,128,28,1555737108,"~/wifind.sh"
+-'  126  28  ~/wifind.sh
+|4,39,126,28,1555737108,"~/wifind.sh"
+-'  128  28  ~/wifind.sh
+|4,39,128,28,1555737108,"~/wifind.sh"
 -'  126  28  ~/wifind.sh
 |4,39,126,28,1555737108,"~/wifind.sh"
 -'  126  28  ~/wifind.sh
 |4,39,126,28,1555737108,"~/wifind.sh"
 -'  126  28  ~/wifind.sh
 |4,39,126,28,1555737108,"~/wifind.sh"
+-'  126  28  ~/wifind.sh
+|4,39,126,28,1555737108,"~/wifind.sh"
+-'  102  3  ~/wifind.sh
+|4,39,102,3,1555737080,"~/wifind.sh"
+-'  101  3  ~/wifind.sh
+|4,39,101,3,1555737080,"~/wifind.sh"
+-'  100  3  ~/wifind.sh
+|4,39,100,3,1555737080,"~/wifind.sh"
+-'  99  3  ~/wifind.sh
+|4,39,99,3,1555737080,"~/wifind.sh"
+-'  102  3  ~/wifind.sh
+|4,39,102,3,1555737080,"~/wifind.sh"
+-'  101  3  ~/wifind.sh
+|4,39,101,3,1555737080,"~/wifind.sh"
+-'  100  3  ~/wifind.sh
+|4,39,100,3,1555737080,"~/wifind.sh"
+-'  99  3  ~/wifind.sh
+|4,39,99,3,1555737080,"~/wifind.sh"
 -'  102  3  ~/wifind.sh
 |4,39,102,3,1555737080,"~/wifind.sh"
 -'  101  3  ~/wifind.sh
@@ -228,13 +322,17 @@
 -'  63  34  ~/wifind.sh
 |4,39,63,34,1555736961,"~/wifind.sh"
 -'  63  34  ~/wifind.sh
-|4,39,63,34,1555736881,"~/wifind.sh"
+|4,39,63,34,1555736961,"~/wifind.sh"
+-'  63  34  ~/wifind.sh
+|4,39,63,34,1555736961,"~/wifind.sh"
 -'  63  34  ~/wifind.sh
 |4,39,63,34,1555736881,"~/wifind.sh"
 -'  63  34  ~/wifind.sh
 |4,39,63,34,1555736881,"~/wifind.sh"
 -'  63  34  ~/wifind.sh
 |4,39,63,34,1555736881,"~/wifind.sh"
+-'  63  34  ~/wifind.sh
+|4,39,63,34,1555736881,"~/wifind.sh"
 -'  65  23  ~/wifind.sh
 |4,39,65,23,1555736759,"~/wifind.sh"
 -'  65  23  ~/wifind.sh
@@ -243,115 +341,16 @@
 |4,39,65,23,1555736759,"~/wifind.sh"
 -'  65  23  ~/wifind.sh
 |4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  65  23  ~/wifind.sh
-|4,39,65,23,1555736759,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736457,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736300,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736300,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736300,"~/wifind.sh"
--'  64  23  ~/wifind.sh
-|4,39,64,23,1555736300,"~/wifind.sh"
--'  64  7  ~/wifind.sh
-|4,39,64,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  64  7  ~/wifind.sh
-|4,39,64,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  64  7  ~/wifind.sh
-|4,39,64,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  64  7  ~/wifind.sh
-|4,39,64,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  63  7  ~/wifind.sh
-|4,39,63,7,1555736137,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
--'  62  7  ~/wifind.sh
-|4,39,62,7,1555736135,"~/wifind.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/wifind.sh
-	*	1555797269	0
-	"	82	41
-	^	82	42
-	.	82	41
-	+	26	41
+	*	1555813799	0
+	"	64	1
+	^	130	9
+	.	130	8
 	+	27	44
-	+	130	9
+	+	131	9
 	+	31	16
 	+	29	41
 	+	84	0
@@ -448,6 +447,8 @@
 	+	83	1
 	+	82	0
 	+	82	41
+	+	131	1
+	+	130	8
 
 > ~/plotSpec.py
 	*	1555796297	0

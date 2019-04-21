@@ -127,6 +127,7 @@ while true; do
 		# fi	
 	fi
 	# sleep for 8 min 20 seconds
-	sleep 500
+	sleep 10
+	#sleep 500
 done
 

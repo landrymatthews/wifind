@@ -879,3 +879,11 @@ sudo ./wifind.sh
 sudo ./wifind.sh 0
 vim wifind.sh 
 sudo ./wifind.sh 0
+ls
+cat /etc/hostapd/hostapd.conf 
+sudo ./wifind.sh 0
+sudo /etc/init.d/hostapd start 
+sudo ./wifind.sh 42
+vim wifind.sh 
+sudo ./wifind.sh 0
+sudo shutdown -r now 
