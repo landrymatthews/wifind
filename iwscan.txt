@@ -1,81 +1,66 @@
                     channel:1
-                    strength:75  
+                    strength:78  
                     ESSID:"DAC31B"
                     channel:1
-                    strength:77  
+                    strength:72  
                     ESSID:"7ACECF"
                     channel:4
-                    strength:42  
+                    strength:36  
                     ESSID:"SUM Beach"
                     channel:7
-                    strength:67  
+                    strength:63  
                     ESSID:"NETGEAR49"
                     channel:6
-                    strength:56  
+                    strength:53  
                     ESSID:"car123"
-                    channel:1
-                    strength:77  
-                    ESSID:"ACEA15"
-                    channel:6
-                    strength:81  
-                    ESSID:"stjohn2011"
-                    channel:1
-                    strength:87  
-                    ESSID:"MMABS 2.4 G"
-                    channel:1
-                    strength:82  
-                    ESSID:""
                     channel:11
-                    strength:84  
-                    ESSID:""
-                    channel:11
-                    strength:35  
+                    strength:39  
                     ESSID:"Dixiepup"
                     channel:36
-                    strength:45  
+                    strength:47  
                     ESSID:"SUM Beach_5G"
                     channel:44
-                    strength:43  
+                    strength:44  
                     ESSID:"Dixiepup"
-                    channel:44
-                    strength:41  
-                    ESSID:""
-                    channel:1
-                    strength:78  
-                    ESSID:""
                     channel:6
-                    strength:73  
+                    strength:80  
                     ESSID:""
-                    channel:6
-                    strength:78  
-                    ESSID:""
-                    channel:6
-                    strength:73  
-                    ESSID:""
-                    channel:6
-                    strength:79  
-                    ESSID:""
-                    channel:6
-                    strength:73  
-                    ESSID:""
-                    channel:6
-                    strength:75  
-                    ESSID:""
-                    channel:6
-                    strength:88  
-                    ESSID:"MOTOROLA-21795"
                     channel:6
                     strength:82  
+                    ESSID:""
+                    channel:6
+                    strength:84  
+                    ESSID:""
+                    channel:6
+                    strength:85  
+                    ESSID:"6C739D"
+                    channel:1
+                    strength:7  
+                    ESSID:"iPhone"
+                    channel:6
+                    strength:9  
+                    ESSID:"Jamie Jewell\xE2\x80\x99s iPhone"
+                    channel:11
+                    strength:87  
+                    ESSID:"PurplePandaRules"
+                    channel:1
+                    strength:40  
+                    ESSID:"Samsung Galaxy S7 1032"
+                    channel:1
+                    strength:87  
+                    ESSID:"6D6036"
+                    channel:6
+                    strength:84  
+                    ESSID:""
+                    channel:6
+                    strength:83  
+                    ESSID:"340F68"
+                    channel:6
+                    strength:81  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                     channel:11
-                    strength:83  
-                    ESSID:"ATT032"
-                    channel:11
-                    strength:86  
-                    ESSID:"Enplug112017"
-                    channel:6
-                    strength:74  
-                    ESSID:"6C739D"
-                    channel:6
-                    strength:78  
-                    ESSID:"340F68"
+                    strength:89  
+                    ESSID:""
+                    channel:44
+                    strength:44  
+                    ESSID:""
