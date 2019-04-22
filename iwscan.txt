@@ -1,66 +1,93 @@
                     channel:1
-                    strength:78  
-                    ESSID:"DAC31B"
-                    channel:1
-                    strength:72  
+                    strength:75  
                     ESSID:"7ACECF"
                     channel:4
-                    strength:36  
+                    strength:31  
                     ESSID:"SUM Beach"
                     channel:7
-                    strength:63  
+                    strength:70  
                     ESSID:"NETGEAR49"
                     channel:6
-                    strength:53  
+                    strength:55  
                     ESSID:"car123"
                     channel:11
-                    strength:39  
+                    strength:34  
                     ESSID:"Dixiepup"
                     channel:36
                     strength:47  
                     ESSID:"SUM Beach_5G"
                     channel:44
-                    strength:44  
+                    strength:40  
                     ESSID:"Dixiepup"
-                    channel:6
-                    strength:80  
-                    ESSID:""
-                    channel:6
+                    channel:1
+                    strength:17  
+                    ESSID:"Samsung Galaxy S7 1032"
+                    channel:11
                     strength:82  
                     ESSID:""
                     channel:6
-                    strength:84  
+                    strength:80  
+                    ESSID:"340F68"
+                    channel:6
+                    strength:77  
+                    ESSID:""
+                    channel:6
+                    strength:78  
                     ESSID:""
                     channel:6
                     strength:85  
-                    ESSID:"6C739D"
-                    channel:1
-                    strength:7  
-                    ESSID:"iPhone"
+                    ESSID:"stjohn2011"
                     channel:6
-                    strength:9  
-                    ESSID:"Jamie Jewell\xE2\x80\x99s iPhone"
-                    channel:11
-                    strength:87  
-                    ESSID:"PurplePandaRules"
-                    channel:1
-                    strength:40  
-                    ESSID:"Samsung Galaxy S7 1032"
-                    channel:1
-                    strength:87  
-                    ESSID:"6D6036"
-                    channel:6
-                    strength:84  
+                    strength:77  
                     ESSID:""
                     channel:6
-                    strength:83  
-                    ESSID:"340F68"
+                    strength:78  
+                    ESSID:""
                     channel:6
-                    strength:81  
+                    strength:78  
+                    ESSID:""
+                    channel:6
+                    strength:77  
+                    ESSID:"6C739D"
+                    channel:6
+                    strength:78  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:6
+                    strength:78  
+                    ESSID:""
+                    channel:1
+                    strength:35  
+                    ESSID:"Apple\xE2\x80\x99s iPhone"
+                    channel:1
+                    strength:85  
+                    ESSID:""
                     channel:11
-                    strength:89  
+                    strength:82  
+                    ESSID:"Yaya"
+                    channel:11
+                    strength:16  
+                    ESSID:"iPhone"
+                    channel:11
+                    strength:35  
+                    ESSID:""
+                    channel:11
+                    strength:85  
+                    ESSID:""
+                    channel:11
+                    strength:34  
+                    ESSID:""
+                    channel:11
+                    strength:34  
+                    ESSID:""
+                    channel:11
+                    strength:84  
+                    ESSID:"Enplug112017"
+                    channel:44
+                    strength:41  
                     ESSID:""
                     channel:44
-                    strength:44  
+                    strength:41  
                     ESSID:""
+                    channel:11
+                    strength:87  
+                    ESSID:"BodyFitPilates"
