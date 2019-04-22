@@ -898,3 +898,17 @@ vim wifind.sh
 sudo ./wifind.sh 42
 cat /etc/hostapd/hostapd.conf 
 vim /etc/hostapd/hostapd.conf
+ls
+sudo /etc/init.d/hostapd start
+sudo ./wifind.sh 4
+vim wifind.sh 
+sudo ./wifind.sh 4
+ls
+cat plotSpec
+cat plotSpec.py 
+sudo ./wifind.sh 42
+sudo /etc/init.d/hostapd stop
+sudo /etc/init.d/hostapd start 
+sudo ./wifind.sh 42
+vim wifind.sh 
+sudo /etc/init.d/hostapd status

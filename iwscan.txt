@@ -1,51 +1,81 @@
+                    channel:1
+                    strength:75  
+                    ESSID:"DAC31B"
+                    channel:1
+                    strength:77  
+                    ESSID:"7ACECF"
+                    channel:4
+                    strength:42  
+                    ESSID:"SUM Beach"
                     channel:7
-                    strength:66  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:11
-                    strength:52  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:11
-                    strength:60  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:56
-                    strength:70  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:56
                     strength:67  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:3
-                    strength:43  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:3
-                    strength:63  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:60
-                    strength:80  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:56
-                    strength:68  
-                    ESSID:""
+                    ESSID:"NETGEAR49"
                     channel:6
-                    strength:27  
-                    ESSID:"Andy"
-                    channel:10
-                    strength:80  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    strength:56  
+                    ESSID:"car123"
+                    channel:1
+                    strength:77  
+                    ESSID:"ACEA15"
+                    channel:6
+                    strength:81  
+                    ESSID:"stjohn2011"
+                    channel:1
+                    strength:87  
+                    ESSID:"MMABS 2.4 G"
+                    channel:1
+                    strength:82  
+                    ESSID:""
                     channel:11
-                    strength:60  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:36
-                    strength:57  
+                    strength:84  
                     ESSID:""
-                    channel:48
-                    strength:79  
+                    channel:11
+                    strength:35  
+                    ESSID:"Dixiepup"
+                    channel:36
+                    strength:45  
+                    ESSID:"SUM Beach_5G"
+                    channel:44
+                    strength:43  
+                    ESSID:"Dixiepup"
+                    channel:44
+                    strength:41  
+                    ESSID:""
+                    channel:1
+                    strength:78  
+                    ESSID:""
+                    channel:6
+                    strength:73  
+                    ESSID:""
+                    channel:6
+                    strength:78  
+                    ESSID:""
+                    channel:6
+                    strength:73  
                     ESSID:""
                     channel:6
                     strength:79  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:3
-                    strength:80  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:10
-                    strength:85  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:""
+                    channel:6
+                    strength:73  
+                    ESSID:""
+                    channel:6
+                    strength:75  
+                    ESSID:""
+                    channel:6
+                    strength:88  
+                    ESSID:"MOTOROLA-21795"
+                    channel:6
+                    strength:82  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:11
+                    strength:83  
+                    ESSID:"ATT032"
+                    channel:11
+                    strength:86  
+                    ESSID:"Enplug112017"
+                    channel:6
+                    strength:74  
+                    ESSID:"6C739D"
+                    channel:6
+                    strength:78  
+                    ESSID:"340F68"

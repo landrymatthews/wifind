@@ -1,51 +1,81 @@
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=35/70  Signal level=-75 dBm  
+                    ESSID:"DAC31B"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=33/70  Signal level=-77 dBm  
+                    ESSID:"7ACECF"
+                    Frequency:2.427 GHz (Channel 4)
+                    Quality=68/70  Signal level=-42 dBm  
+                    ESSID:"SUM Beach"
                     Frequency:2.442 GHz (Channel 7)
-                    Quality=44/70  Signal level=-66 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=58/70  Signal level=-52 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=50/70  Signal level=-60 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:5.28 GHz (Channel 56)
-                    Quality=40/70  Signal level=-70 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:5.28 GHz (Channel 56)
                     Quality=43/70  Signal level=-67 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=67/70  Signal level=-43 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=47/70  Signal level=-63 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:5.3 GHz (Channel 60)
-                    Quality=30/70  Signal level=-80 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:5.28 GHz (Channel 56)
-                    Quality=42/70  Signal level=-68 dBm  
-                    ESSID:""
+                    ESSID:"NETGEAR49"
                     Frequency:2.437 GHz (Channel 6)
-                    Quality=70/70  Signal level=-27 dBm  
-                    ESSID:"Andy"
-                    Frequency:2.457 GHz (Channel 10)
-                    Quality=30/70  Signal level=-80 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    Quality=54/70  Signal level=-56 dBm  
+                    ESSID:"car123"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=33/70  Signal level=-77 dBm  
+                    ESSID:"ACEA15"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=29/70  Signal level=-81 dBm  
+                    ESSID:"stjohn2011"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=23/70  Signal level=-87 dBm  
+                    ESSID:"MMABS 2.4 G"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=28/70  Signal level=-82 dBm  
+                    ESSID:""
                     Frequency:2.462 GHz (Channel 11)
-                    Quality=50/70  Signal level=-60 dBm  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    Frequency:5.18 GHz (Channel 36)
-                    Quality=53/70  Signal level=-57 dBm  
+                    Quality=26/70  Signal level=-84 dBm  
                     ESSID:""
-                    Frequency:5.24 GHz (Channel 48)
-                    Quality=31/70  Signal level=-79 dBm  
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=70/70  Signal level=-35 dBm  
+                    ESSID:"Dixiepup"
+                    Frequency:5.18 GHz (Channel 36)
+                    Quality=65/70  Signal level=-45 dBm  
+                    ESSID:"SUM Beach_5G"
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=67/70  Signal level=-43 dBm  
+                    ESSID:"Dixiepup"
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=69/70  Signal level=-41 dBm  
+                    ESSID:""
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=32/70  Signal level=-78 dBm  
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=37/70  Signal level=-73 dBm  
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=32/70  Signal level=-78 dBm  
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=37/70  Signal level=-73 dBm  
                     ESSID:""
                     Frequency:2.437 GHz (Channel 6)
                     Quality=31/70  Signal level=-79 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=30/70  Signal level=-80 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.457 GHz (Channel 10)
-                    Quality=25/70  Signal level=-85 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=37/70  Signal level=-73 dBm  
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=35/70  Signal level=-75 dBm  
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=22/70  Signal level=-88 dBm  
+                    ESSID:"MOTOROLA-21795"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=28/70  Signal level=-82 dBm  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=27/70  Signal level=-83 dBm  
+                    ESSID:"ATT032"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=24/70  Signal level=-86 dBm  
+                    ESSID:"Enplug112017"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=36/70  Signal level=-74 dBm  
+                    ESSID:"6C739D"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=32/70  Signal level=-78 dBm  
+                    ESSID:"340F68"

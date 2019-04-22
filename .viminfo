@@ -14,10 +14,10 @@
 ~MSle0~/print
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1555908258,,"q"
 :wq
 |2,0,1555906779,,"wq"
-:q
-|2,0,1555832682,,"q"
 :w
 |2,0,1555737053,,"w"
 :wqall
@@ -119,40 +119,52 @@
 |3,0,36,0,1,0,1555736224,"2 "
 
 # File marks:
-'0  14  17  ~/wifind.sh
-|4,48,14,17,1555906779,"~/wifind.sh"
-'1  4  8  /etc/hostapd/hostapd.conf
-|4,49,4,8,1555832682,"/etc/hostapd/hostapd.conf"
-'2  13  2  ~/wifind.sh
-|4,50,13,2,1555815112,"~/wifind.sh"
-'3  13  2  ~/wifind.sh
-|4,51,13,2,1555815112,"~/wifind.sh"
-'4  64  1  ~/wifind.sh
-|4,52,64,1,1555813800,"~/wifind.sh"
-'5  64  1  ~/wifind.sh
-|4,53,64,1,1555813800,"~/wifind.sh"
-'6  64  1  ~/wifind.sh
-|4,54,64,1,1555813800,"~/wifind.sh"
-'7  64  1  ~/wifind.sh
-|4,55,64,1,1555813800,"~/wifind.sh"
-'8  130  8  ~/wifind.sh
-|4,56,130,8,1555798299,"~/wifind.sh"
-'9  130  8  ~/wifind.sh
-|4,57,130,8,1555798299,"~/wifind.sh"
+'0  133  0  ~/wifind.sh
+|4,48,133,0,1555908258,"~/wifind.sh"
+'1  14  17  ~/wifind.sh
+|4,49,14,17,1555906779,"~/wifind.sh"
+'2  14  17  ~/wifind.sh
+|4,50,14,17,1555906779,"~/wifind.sh"
+'3  4  8  /etc/hostapd/hostapd.conf
+|4,51,4,8,1555832682,"/etc/hostapd/hostapd.conf"
+'4  13  2  ~/wifind.sh
+|4,52,13,2,1555815112,"~/wifind.sh"
+'5  13  2  ~/wifind.sh
+|4,53,13,2,1555815112,"~/wifind.sh"
+'6  13  2  ~/wifind.sh
+|4,54,13,2,1555815112,"~/wifind.sh"
+'7  13  2  ~/wifind.sh
+|4,55,13,2,1555815112,"~/wifind.sh"
+'8  64  1  ~/wifind.sh
+|4,56,64,1,1555813800,"~/wifind.sh"
+'9  64  1  ~/wifind.sh
+|4,57,64,1,1555813800,"~/wifind.sh"
 
 # Jumplist (newest first):
+-'  133  0  ~/wifind.sh
+|4,39,133,0,1555908258,"~/wifind.sh"
+-'  14  17  ~/wifind.sh
+|4,39,14,17,1555908239,"~/wifind.sh"
 -'  14  17  ~/wifind.sh
 |4,39,14,17,1555906779,"~/wifind.sh"
+-'  13  2  ~/wifind.sh
+|4,39,13,2,1555906767,"~/wifind.sh"
 -'  13  2  ~/wifind.sh
 |4,39,13,2,1555906767,"~/wifind.sh"
 -'  4  8  /etc/hostapd/hostapd.conf
 |4,39,4,8,1555832682,"/etc/hostapd/hostapd.conf"
 -'  4  8  /etc/hostapd/hostapd.conf
 |4,39,4,8,1555832682,"/etc/hostapd/hostapd.conf"
+-'  4  8  /etc/hostapd/hostapd.conf
+|4,39,4,8,1555832682,"/etc/hostapd/hostapd.conf"
+-'  4  8  /etc/hostapd/hostapd.conf
+|4,39,4,8,1555832682,"/etc/hostapd/hostapd.conf"
 -'  13  2  ~/wifind.sh
 |4,39,13,2,1555815112,"~/wifind.sh"
 -'  13  2  ~/wifind.sh
 |4,39,13,2,1555815112,"~/wifind.sh"
+-'  64  1  ~/wifind.sh
+|4,39,64,1,1555815101,"~/wifind.sh"
 -'  64  1  ~/wifind.sh
 |4,39,64,1,1555815101,"~/wifind.sh"
 -'  64  1  ~/wifind.sh
@@ -174,9 +186,13 @@
 -'  130  8  ~/wifind.sh
 |4,39,130,8,1555811887,"~/wifind.sh"
 -'  130  8  ~/wifind.sh
+|4,39,130,8,1555811887,"~/wifind.sh"
+-'  130  8  ~/wifind.sh
 |4,39,130,8,1555798299,"~/wifind.sh"
 -'  130  8  ~/wifind.sh
 |4,39,130,8,1555798299,"~/wifind.sh"
+-'  82  41  ~/wifind.sh
+|4,39,82,41,1555798276,"~/wifind.sh"
 -'  82  41  ~/wifind.sh
 |4,39,82,41,1555798276,"~/wifind.sh"
 -'  82  41  ~/wifind.sh
@@ -213,24 +229,8 @@
 |4,39,79,7,1555797037,"~/wifind.sh"
 -'  79  7  ~/wifind.sh
 |4,39,79,7,1555797037,"~/wifind.sh"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
--'  96  40  ~/plotSpec.py
-|4,39,96,40,1555796354,"~/plotSpec.py"
+-'  79  7  ~/wifind.sh
+|4,39,79,7,1555797037,"~/wifind.sh"
 -'  96  40  ~/plotSpec.py
 |4,39,96,40,1555796354,"~/plotSpec.py"
 -'  96  40  ~/plotSpec.py
@@ -345,8 +345,8 @@
 # History of marks within files (newest to oldest):
 
 > ~/wifind.sh
-	*	1555906778	0
-	"	14	17
+	*	1555908255	0
+	"	133	0
 	^	14	18
 	.	14	17
 	+	31	16
