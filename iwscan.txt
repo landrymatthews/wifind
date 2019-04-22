@@ -1,57 +1,57 @@
-                    channel:1
-                    strength:58  
-                    ESSID:"WhiteSky-PublicWiFi"
                     channel:7
-                    strength:78  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:8
-                    strength:68  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:10
-                    strength:77  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:36
-                    strength:67  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:36
-                    strength:63  
+                    strength:66  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:11
-                    strength:76  
-                    ESSID:"NETGEAR19"
-                    channel:7
-                    strength:85  
+                    strength:57  
                     ESSID:"WhiteSky-PublicWiFi"
+                    channel:11
+                    strength:61  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:56
+                    strength:73  
+                    ESSID:"WhiteSky-Arlington"
+                    channel:56
+                    strength:70  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:3
+                    strength:48  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:3
+                    strength:64  
+                    ESSID:"WhiteSky-Arlington"
                     channel:60
                     strength:80  
                     ESSID:"WhiteSky-PublicWiFi"
-                    channel:10
-                    strength:81  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:36
-                    strength:58  
+                    channel:56
+                    strength:71  
                     ESSID:""
-                    channel:11
-                    strength:59  
+                    channel:6
+                    strength:33  
+                    ESSID:"Andy"
+                    channel:3
+                    strength:83  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:6
+                    strength:79  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:10
+                    strength:82  
+                    ESSID:"WhiteSky-PublicWiFi"
+                    channel:10
+                    strength:83  
                     ESSID:"WhiteSky-PublicWiFi"
                     channel:11
-                    strength:59  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:1
-                    strength:66  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:2
-                    strength:82  
+                    strength:80  
+                    ESSID:"NETGEAR19"
+                    channel:11
+                    strength:62  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:36
+                    strength:57  
+                    ESSID:""
+                    channel:48
+                    strength:77  
+                    ESSID:""
+                    channel:6
+                    strength:67  
                     ESSID:"HP-Print-C5-Officejet Pro 8620"
-                    channel:8
-                    strength:58  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:11
-                    strength:84  
-                    ESSID:"WiFi Hotspot 3366"
-                    channel:11
-                    strength:50  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:8
-                    strength:69  
-                    ESSID:"WhiteSky-Arlington"

@@ -887,3 +887,14 @@ sudo ./wifind.sh 42
 vim wifind.sh 
 sudo ./wifind.sh 0
 sudo shutdown -r now 
+cat wifind.sh
+vim wifind.sh 
+ls
+rm .pwm.py.swp 
+ls
+cat acc_test_output.txt 
+sudo ./wifind.sh 42
+vim wifind.sh 
+sudo ./wifind.sh 42
+cat /etc/hostapd/hostapd.conf 
+vim /etc/hostapd/hostapd.conf
