@@ -1,213 +1,198 @@
                     channel:1
-                    strength:56  
+                    strength:55  
                     ESSID:"eduroam"
-                    channel:1
-                    strength:76  
-                    ESSID:"lsuguest"
-                    channel:1
-                    strength:56  
-                    ESSID:"lsuguest"
-                    channel:1
-                    strength:56  
-                    ESSID:"lsuwifihelp"
-                    channel:6
-                    strength:63  
-                    ESSID:"DIRECT-9F-HP OfficeJet 3830"
-                    channel:6
-                    strength:45  
-                    ESSID:"VizioCastDisplay4911"
-                    channel:6
-                    strength:67  
-                    ESSID:"VizioCastDisplay5586"
-                    channel:6
-                    strength:70  
-                    ESSID:"lsuwifihelp"
-                    channel:6
-                    strength:60  
-                    ESSID:"lsuguest"
-                    channel:6
-                    strength:60  
-                    ESSID:"lsuwifihelp"
-                    channel:6
-                    strength:71  
-                    ESSID:"lsuwifihelp"
-                    channel:11
-                    strength:61  
-                    ESSID:"lsuguest"
-                    channel:11
-                    strength:61  
-                    ESSID:"lsuwifihelp"
-                    channel:11
-                    strength:60  
-                    ESSID:"eduroam"
-                    channel:11
-                    strength:71  
-                    ESSID:"SETUP"
-                    channel:11
-                    strength:70  
-                    ESSID:"DIRECT-iSDESKTOP-497D497msZE"
-                    channel:44
-                    strength:76  
-                    ESSID:"lsuguest"
-                    channel:44
-                    strength:76  
-                    ESSID:"eduroam"
-                    channel:48
-                    strength:81  
-                    ESSID:"eduroam"
-                    channel:52
-                    strength:84  
-                    ESSID:"eduroam"
-                    channel:60
-                    strength:86  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:60
-                    strength:85  
-                    ESSID:"eduroam"
-                    channel:108
-                    strength:64  
-                    ESSID:"\x00"
-                    channel:108
-                    strength:64  
-                    ESSID:"lsuguest"
-                    channel:108
-                    strength:65  
-                    ESSID:"eduroam"
-                    channel:120
-                    strength:84  
-                    ESSID:"elevator-1"
-                    channel:132
-                    strength:81  
-                    ESSID:"\x00"
-                    channel:132
-                    strength:82  
-                    ESSID:"lsuguest"
-                    channel:132
-                    strength:82  
-                    ESSID:"eduroam"
-                    channel:140
-                    strength:78  
-                    ESSID:"lsuguest"
-                    channel:140
-                    strength:79  
-                    ESSID:"eduroam"
-                    channel:144
-                    strength:82  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:144
-                    strength:83  
-                    ESSID:"lsuguest"
-                    channel:144
-                    strength:83  
-                    ESSID:"eduroam"
-                    channel:149
-                    strength:77  
-                    ESSID:"lsuguest"
-                    channel:149
-                    strength:78  
-                    ESSID:"eduroam"
-                    channel:149
-                    strength:77  
-                    ESSID:"\x00"
-                    channel:1
-                    strength:79  
-                    ESSID:"lsuwifihelp"
                     channel:1
                     strength:55  
-                    ESSID:"\x00"
-                    channel:6
-                    strength:68  
                     ESSID:"lsuguest"
+                    channel:1
+                    strength:55  
+                    ESSID:"lsuwifihelp"
                     channel:6
-                    strength:79  
-                    ESSID:"DIRECT-99-HP OfficeJet Pro 8720"
+                    strength:65  
+                    ESSID:"DIRECT-9F-HP OfficeJet 3830"
                     channel:6
-                    strength:61  
-                    ESSID:"eduroam"
+                    strength:52  
+                    ESSID:"VizioCastDisplay4911"
+                    channel:6
+                    strength:71  
+                    ESSID:"VizioCastDisplay5586"
                     channel:11
-                    strength:72  
+                    strength:66  
                     ESSID:"lsuguest"
                     channel:11
-                    strength:75  
+                    strength:66  
                     ESSID:"lsuwifihelp"
                     channel:11
-                    strength:80  
-                    ESSID:"lsuguest"
+                    strength:66  
+                    ESSID:"eduroam"
                     channel:11
+                    strength:70  
+                    ESSID:"SETUP"
+                    channel:44
+                    strength:72  
+                    ESSID:"lsuguest"
+                    channel:44
+                    strength:72  
+                    ESSID:"eduroam"
+                    channel:48
+                    strength:78  
+                    ESSID:"eduroam"
+                    channel:60
+                    strength:86  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:60
+                    strength:86  
+                    ESSID:"eduroam"
+                    channel:108
+                    strength:66  
+                    ESSID:"lsuguest"
+                    channel:108
+                    strength:66  
+                    ESSID:"eduroam"
+                    channel:132
+                    strength:85  
+                    ESSID:"lsuguest"
+                    channel:132
+                    strength:83  
+                    ESSID:"eduroam"
+                    channel:140
+                    strength:78  
+                    ESSID:"lsuguest"
+                    channel:140
+                    strength:78  
+                    ESSID:"eduroam"
+                    channel:144
+                    strength:84  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:144
+                    strength:84  
+                    ESSID:"lsuguest"
+                    channel:144
+                    strength:84  
+                    ESSID:"eduroam"
+                    channel:149
+                    strength:78  
+                    ESSID:"lsuguest"
+                    channel:149
                     strength:79  
                     ESSID:"eduroam"
-                    channel:52
-                    strength:88  
+                    channel:1
+                    strength:79  
+                    ESSID:"lsuwifihelp"
+                    channel:1
+                    strength:56  
+                    ESSID:"\x00"
+                    channel:11
+                    strength:79  
+                    ESSID:"lsuwifihelp"
+                    channel:11
+                    strength:82  
                     ESSID:"lsuguest"
                     channel:52
-                    strength:84  
-                    ESSID:"\x00"
+                    strength:86  
+                    ESSID:"lsuguest"
                     channel:52
                     strength:80  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:100
-                    strength:84  
-                    ESSID:"eduroam"
-                    channel:100
-                    strength:87  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                     channel:140
                     strength:81  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:6
-                    strength:74  
-                    ESSID:"lsuwifihelp"
                     channel:11
+                    strength:71  
+                    ESSID:"eduroam"
+                    channel:52
                     strength:80  
-                    ESSID:"lsuwifihelp"
-                    channel:11
-                    strength:72  
-                    ESSID:"eduroam"
-                    channel:11
-                    strength:61  
-                    ESSID:"\x00"
-                    channel:132
-                    strength:83  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:132
-                    strength:85  
-                    ESSID:"lsuguest"
-                    channel:132
-                    strength:85  
-                    ESSID:"eduroam"
-                    channel:149
-                    strength:88  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:11
-                    strength:72  
-                    ESSID:"lsuwifihelp"
-                    channel:11
-                    strength:78  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:11
-                    strength:73  
-                    ESSID:"\x00"
-                    channel:44
-                    strength:78  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:52
-                    strength:79  
                     ESSID:"lsuguest"
                     channel:52
-                    strength:79  
+                    strength:80  
                     ESSID:"eduroam"
                     channel:52
-                    strength:85  
+                    strength:86  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                     channel:52
                     strength:86  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:60
+                    strength:87  
+                    ESSID:"lsuguest"
+                    channel:1
+                    strength:80  
+                    ESSID:"lsuwifihelp"
+                    channel:48
+                    strength:78  
+                    ESSID:"lsuguest"
+                    channel:149
+                    strength:88  
+                    ESSID:"eduroam"
+                    channel:1
+                    strength:77  
+                    ESSID:"lsuwifihelp"
+                    channel:6
+                    strength:67  
+                    ESSID:"DIRECT-MGDESKTOP-HQI53CJmsHM"
+                    channel:6
+                    strength:71  
+                    ESSID:"lsuguest"
+                    channel:6
+                    strength:66  
+                    ESSID:"lsuwifihelp"
+                    channel:6
+                    strength:66  
+                    ESSID:"lsuguest"
+                    channel:11
+                    strength:71  
+                    ESSID:"lsuguest"
+                    channel:11
+                    strength:79  
+                    ESSID:"lsuwifihelp"
+                    channel:11
+                    strength:66  
+                    ESSID:"\x00"
+                    channel:40
+                    strength:82  
+                    ESSID:""
+                    channel:44
+                    strength:73  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:52
+                    strength:87  
                     ESSID:"lsuguest"
                     channel:52
                     strength:87  
+                    ESSID:"lsuguest"
+                    channel:52
+                    strength:86  
+                    ESSID:"eduroam"
+                    channel:52
+                    strength:87  
+                    ESSID:"eduroam"
+                    channel:52
+                    strength:87  
+                    ESSID:"\x00"
+                    channel:100
+                    strength:84  
                     ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:60
+                    channel:100
+                    strength:82  
+                    ESSID:"lsuguest"
+                    channel:100
+                    strength:83  
+                    ESSID:"eduroam"
+                    channel:108
+                    strength:66  
+                    ESSID:"\x00"
+                    channel:132
+                    strength:85  
+                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+                    channel:132
+                    strength:85  
+                    ESSID:"\x00"
+                    channel:132
                     strength:86  
                     ESSID:"lsuguest"
+                    channel:132
+                    strength:85  
+                    ESSID:"eduroam"
                     channel:149
-                    strength:88  
-                    ESSID:"lsuguest"
+                    strength:87  
+                    ESSID:"eduroam"
