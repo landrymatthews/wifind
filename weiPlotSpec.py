@@ -76,16 +76,16 @@ plt.savefig('specplot.pdf', bbox_inches='tight')
 
 
 
-max1 = -1000
-max6 = -1000
-max11 = -1000
+sum1 = 0
+sum6 = 0
+sum11 = 0
 for i in range(len(channel)):
-    if channel[i] == 1 and strength[i] > max1:
-        max1 = strength[i]
-    if channel[i] == 6 and strength[i] > max6:
-        max6 = strength[i]
-    if channel[i] == 11 and strength[i] > max11:
-        max11 = strength[i]
+    if channel[i] == 1:
+        sum1 = sum1 + strength[i]
+    if channel[i] == 6:
+        sum6 = sum6 + strength[i]
+    if channel[i] == 11:
+        sum11 = sum11 + strength[i]
 
 ################## LED ####################
 # order: green -> yellow -> orange -> red
@@ -102,19 +102,24 @@ GPIO.output(redpin,GPIO.LOW)
 GPIO.output(greenpin,GPIO.LOW)
 GPIO.output(bluepin,GPIO.LOW)
 
-if max1 <= max6 and max1 <= max11:
+if sum1 >= sum6 and sum1 >= sum11:
     print('channel 1 is the best')
     best_chan = 1
     GPIO.output(bluepin,GPIO.HIGH)
-elif max6 <= max1 and max6 <= max11:
+elif sum6 >= sum1 and sum6 >= sum11:
     print('channel 6 is the best')
     best_chan = 6
     GPIO.output(greenpin,GPIO.HIGH)
-elif max11 <= max1 and max11 <= max6:
+elif sum11 >= sum1 and sum11 >= sum6:
     print('channel 11 is the best')
     best_chan = 11
     GPIO.output(redpin,GPIO.HIGH)
 
-min_str = min(max1, max6, max11)
+
+
+
+
+
+min_str = max(sum1, sum6, sum11)
 print("The software has the determined that the best channel to switch to is channel " + str(best_chan) + " based on it having the lowest signal peak of " + str(min_str) + "\n")
 print(best_chan)

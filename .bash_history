@@ -912,3 +912,25 @@ sudo /etc/init.d/hostapd start
 sudo ./wifind.sh 42
 vim wifind.sh 
 sudo /etc/init.d/hostapd status
+sudo ./wifind.sh 4
+vim wifind.sh 
+sudo ./wifind.sh 4
+vim wifind.sh 
+vim change_channel.sh 
+ls
+vim wifind.sh 
+sudo ./wifind.sh 4
+man cp
+cp ./plotSpec.py ./weiwifind.sh
+ls
+vim weiPlotSpec.py 
+./wifind.sh
+sudo ./wifind.sh 
+sudo ./wifind.sh 4
+cp ./wifind.sh ./weiwifind.sh
+vim weiwifind.sh 
+sudo ./weiwifind.sh 4
+vim weiPlotSpec.py 
+sudo ./weiwifind.sh 4
+vim weiPlotSpec.py 
+sudo ./weiwifind.sh 4

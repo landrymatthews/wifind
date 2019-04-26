@@ -23,7 +23,7 @@ while true; do
 		# Removing any text preceding the signal level and channel data
 		# Removing 5 GHz networks from the list and formatting for easy reading later
 		sed -E 's/Quality=.* Signal level=-(.*) dBm/strength:\1/' iwscan_initial.txt | sed 's/Frequency.* GHz //' | sed -e '/Frequency/,+2d' | sed -E 's/\(Channel (.*)\)/channel:\1/' > iwscan.txt
-		python plotSpec.py > plotSpecOutput.txt
+		python weiPlotSpec.py > plotSpecOutput.txt
 		BEST_CHAN="$(tail -n 1 plotSpecOutput.txt)"
 		echo The best channel was determined to be channel $BEST_CHAN
 
@@ -128,6 +128,6 @@ while true; do
 	fi
 	# sleep for 8 min 20 seconds
 	#sleep 10
-	sleep 10
+	sleep 100
 done
 
