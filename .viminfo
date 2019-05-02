@@ -21,7 +21,7 @@ $sum
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1556699726,,"q"
+|2,0,1556817541,,"q"
 :wq
 |2,0,1556318508,,"wq"
 :wqall
@@ -144,38 +144,56 @@ $sum
 |3,1,36,0,1,0,1555990833,"sum"
 
 # File marks:
-'0  8  0  ~/wifind.sh
-|4,48,8,0,1556707918,"~/wifind.sh"
-'1  1  0  ~/wifind.sh
-|4,49,1,0,1556705297,"~/wifind.sh"
-'2  105  33  ~/weiPlotSpec.py
-|4,50,105,33,1556699726,"~/weiPlotSpec.py"
-'3  20  0  ~/weiwifind.sh
-|4,51,20,0,1556699586,"~/weiwifind.sh"
-'4  87  1  ~/wifind.sh
-|4,52,87,1,1556699561,"~/wifind.sh"
-'5  78  1  ~/wifind.sh
-|4,53,78,1,1556699561,"~/wifind.sh"
-'6  1  0  ~/adc_stuff/readADC.sh
-|4,54,1,0,1556698561,"~/adc_stuff/readADC.sh"
-'7  1  0  ~/adc_stuff/squarewave.py
-|4,55,1,0,1556698553,"~/adc_stuff/squarewave.py"
-'8  1  0  ~/adc_stuff/pwm_code.py
-|4,56,1,0,1556698423,"~/adc_stuff/pwm_code.py"
-'9  1  0  ~/adc_stuff/adcPlot.py
-|4,57,1,0,1556698399,"~/adc_stuff/adcPlot.py"
+'0  107  15  ~/plotSpec.py
+|4,48,107,15,1556817541,"~/plotSpec.py"
+'1  8  0  ~/wifind.sh
+|4,49,8,0,1556707918,"~/wifind.sh"
+'2  1  0  ~/wifind.sh
+|4,50,1,0,1556705297,"~/wifind.sh"
+'3  105  33  ~/weiPlotSpec.py
+|4,51,105,33,1556699726,"~/weiPlotSpec.py"
+'4  20  0  ~/weiwifind.sh
+|4,52,20,0,1556699586,"~/weiwifind.sh"
+'5  87  1  ~/wifind.sh
+|4,53,87,1,1556699561,"~/wifind.sh"
+'6  78  1  ~/wifind.sh
+|4,54,78,1,1556699561,"~/wifind.sh"
+'7  1  0  ~/adc_stuff/readADC.sh
+|4,55,1,0,1556698561,"~/adc_stuff/readADC.sh"
+'8  1  0  ~/adc_stuff/squarewave.py
+|4,56,1,0,1556698553,"~/adc_stuff/squarewave.py"
+'9  1  0  ~/adc_stuff/pwm_code.py
+|4,57,1,0,1556698423,"~/adc_stuff/pwm_code.py"
 
 # Jumplist (newest first):
+-'  107  15  ~/plotSpec.py
+|4,39,107,15,1556817541,"~/plotSpec.py"
+-'  118  0  ~/plotSpec.py
+|4,39,118,0,1556777991,"~/plotSpec.py"
+-'  8  0  ~/wifind.sh
+|4,39,8,0,1556707918,"~/wifind.sh"
 -'  8  0  ~/wifind.sh
 |4,39,8,0,1556707918,"~/wifind.sh"
 -'  1  0  ~/wifind.sh
 |4,39,1,0,1556705297,"~/wifind.sh"
+-'  1  0  ~/wifind.sh
+|4,39,1,0,1556705297,"~/wifind.sh"
+-'  87  1  ~/wifind.sh
+|4,39,87,1,1556699730,"~/wifind.sh"
 -'  87  1  ~/wifind.sh
 |4,39,87,1,1556699730,"~/wifind.sh"
 -'  105  33  ~/weiPlotSpec.py
 |4,39,105,33,1556699726,"~/weiPlotSpec.py"
 -'  105  33  ~/weiPlotSpec.py
 |4,39,105,33,1556699726,"~/weiPlotSpec.py"
+-'  105  33  ~/weiPlotSpec.py
+|4,39,105,33,1556699726,"~/weiPlotSpec.py"
+-'  105  33  ~/weiPlotSpec.py
+|4,39,105,33,1556699726,"~/weiPlotSpec.py"
+-'  123  12  ~/weiPlotSpec.py
+|4,39,123,12,1556699592,"~/weiPlotSpec.py"
+-'  123  12  ~/weiPlotSpec.py
+|4,39,123,12,1556699592,"~/weiPlotSpec.py"
 -'  123  12  ~/weiPlotSpec.py
 |4,39,123,12,1556699592,"~/weiPlotSpec.py"
 -'  123  12  ~/weiPlotSpec.py
@@ -188,6 +206,22 @@ $sum
 |4,39,20,0,1556699586,"~/weiwifind.sh"
 -'  20  0  ~/weiwifind.sh
 |4,39,20,0,1556699586,"~/weiwifind.sh"
+-'  20  0  ~/weiwifind.sh
+|4,39,20,0,1556699586,"~/weiwifind.sh"
+-'  20  0  ~/weiwifind.sh
+|4,39,20,0,1556699586,"~/weiwifind.sh"
+-'  20  0  ~/weiwifind.sh
+|4,39,20,0,1556699586,"~/weiwifind.sh"
+-'  20  0  ~/weiwifind.sh
+|4,39,20,0,1556699586,"~/weiwifind.sh"
+-'  26  12  ~/weiwifind.sh
+|4,39,26,12,1556699575,"~/weiwifind.sh"
+-'  26  12  ~/weiwifind.sh
+|4,39,26,12,1556699575,"~/weiwifind.sh"
+-'  26  12  ~/weiwifind.sh
+|4,39,26,12,1556699575,"~/weiwifind.sh"
+-'  26  12  ~/weiwifind.sh
+|4,39,26,12,1556699575,"~/weiwifind.sh"
 -'  26  12  ~/weiwifind.sh
 |4,39,26,12,1556699575,"~/weiwifind.sh"
 -'  26  12  ~/weiwifind.sh
@@ -204,6 +238,24 @@ $sum
 |4,39,78,1,1556699561,"~/wifind.sh"
 -'  78  1  ~/wifind.sh
 |4,39,78,1,1556699561,"~/wifind.sh"
+-'  78  1  ~/wifind.sh
+|4,39,78,1,1556699561,"~/wifind.sh"
+-'  78  1  ~/wifind.sh
+|4,39,78,1,1556699561,"~/wifind.sh"
+-'  78  1  ~/wifind.sh
+|4,39,78,1,1556699561,"~/wifind.sh"
+-'  78  1  ~/wifind.sh
+|4,39,78,1,1556699561,"~/wifind.sh"
+-'  140  8  ~/wifind.sh
+|4,39,140,8,1556698693,"~/wifind.sh"
+-'  131  8  ~/wifind.sh
+|4,39,131,8,1556698693,"~/wifind.sh"
+-'  131  8  ~/wifind.sh
+|4,39,131,8,1556698693,"~/wifind.sh"
+-'  131  8  ~/wifind.sh
+|4,39,131,8,1556698693,"~/wifind.sh"
+-'  131  8  ~/wifind.sh
+|4,39,131,8,1556698693,"~/wifind.sh"
 -'  140  8  ~/wifind.sh
 |4,39,140,8,1556698693,"~/wifind.sh"
 -'  131  8  ~/wifind.sh
@@ -246,6 +298,38 @@ $sum
 |4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
 -'  1  0  ~/adc_stuff/readADC.sh
 |4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
+-'  1  0  ~/adc_stuff/readADC.sh
+|4,39,1,0,1556698561,"~/adc_stuff/readADC.sh"
 -'  1  0  ~/adc_stuff/squarewave.py
 |4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
 -'  1  0  ~/adc_stuff/squarewave.py
@@ -282,92 +366,113 @@ $sum
 |4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
 -'  1  0  ~/adc_stuff/squarewave.py
 |4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/squarewave.py
-|4,39,1,0,1556698553,"~/adc_stuff/squarewave.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
--'  1  0  ~/adc_stuff/pwm_code.py
-|4,39,1,0,1556698423,"~/adc_stuff/pwm_code.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/plotSpec.py
+	*	1556817540	0
+	"	107	15
+	^	81	13
+	.	81	12
+	+	117	83
+	+	117	0
+	+	119	174
+	+	119	0
+	+	119	160
+	+	120	15
+	+	113	2
+	+	109	2
+	+	110	34
+	+	114	34
+	+	8	0
+	+	120	0
+	+	10	0
+	+	8	13
+	+	120	0
+	+	120	9
+	+	8	8
+	+	120	19
+	+	120	11
+	+	8	13
+	+	79	8
+	+	80	11
+	+	81	4
+	+	80	14
+	+	79	10
+	+	119	173
+	+	120	0
+	+	120	20
+	+	119	181
+	+	8	0
+	+	90	0
+	+	8	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	9	0
+	+	2	0
+	+	118	0
+	+	118	24
+	+	118	43
+	+	118	0
+	+	113	0
+	+	118	0
+	+	90	0
+	+	92	0
+	+	97	11
+	+	100	0
+	+	100	12
+	+	100	0
+	+	98	0
+	+	99	13
+	+	98	13
+	+	100	0
+	+	108	16
+	+	111	16
+	+	112	0
+	+	116	18
+	+	112	17
+	+	101	0
+	+	102	0
+	+	105	0
+	+	101	0
+	+	102	0
+	+	105	0
+	+	102	13
+	+	103	24
+	+	105	0
+	+	108	26
+	+	112	27
+	+	116	27
+	+	96	11
+	+	97	12
+	+	98	12
+	+	99	12
+	+	97	16
+	+	98	18
+	+	99	17
+	+	101	17
+	+	102	19
+	+	103	18
+	+	108	23
+	+	112	23
+	+	116	22
+	+	95	12
+	+	94	10
+	+	96	11
+	+	108	22
+	+	116	18
+	+	91	40
+	+	87	0
+	+	89	0
+	+	85	0
+	+	90	0
+	+	118	0
+	+	90	0
+	+	79	11
+	+	80	11
+	+	81	12
 
 > ~/wifind.sh
 	*	1556699749	0
@@ -562,111 +667,6 @@ $sum
 	+	4	24
 	+	15	9
 	+	13	10
-
-> ~/plotSpec.py
-	*	1555990853	0
-	"	118	0
-	^	81	13
-	.	81	12
-	+	117	83
-	+	117	0
-	+	119	174
-	+	119	0
-	+	119	160
-	+	120	15
-	+	113	2
-	+	109	2
-	+	110	34
-	+	114	34
-	+	8	0
-	+	120	0
-	+	10	0
-	+	8	13
-	+	120	0
-	+	120	9
-	+	8	8
-	+	120	19
-	+	120	11
-	+	8	13
-	+	79	8
-	+	80	11
-	+	81	4
-	+	80	14
-	+	79	10
-	+	119	173
-	+	120	0
-	+	120	20
-	+	119	181
-	+	8	0
-	+	90	0
-	+	8	0
-	+	10	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	9	0
-	+	2	0
-	+	118	0
-	+	118	24
-	+	118	43
-	+	118	0
-	+	113	0
-	+	118	0
-	+	90	0
-	+	92	0
-	+	97	11
-	+	100	0
-	+	100	12
-	+	100	0
-	+	98	0
-	+	99	13
-	+	98	13
-	+	100	0
-	+	108	16
-	+	111	16
-	+	112	0
-	+	116	18
-	+	112	17
-	+	101	0
-	+	102	0
-	+	105	0
-	+	101	0
-	+	102	0
-	+	105	0
-	+	102	13
-	+	103	24
-	+	105	0
-	+	108	26
-	+	112	27
-	+	116	27
-	+	96	11
-	+	97	12
-	+	98	12
-	+	99	12
-	+	97	16
-	+	98	18
-	+	99	17
-	+	101	17
-	+	102	19
-	+	103	18
-	+	108	23
-	+	112	23
-	+	116	22
-	+	95	12
-	+	94	10
-	+	96	11
-	+	108	22
-	+	116	18
-	+	91	40
-	+	87	0
-	+	89	0
-	+	85	0
-	+	90	0
-	+	118	0
-	+	90	0
-	+	79	11
-	+	80	11
-	+	81	12
 
 > /etc/hostapd/hostapd.conf
 	*	1555832680	0

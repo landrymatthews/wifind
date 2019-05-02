@@ -1,29 +1,25 @@
 channels: 
-[1, 1, 1, 6, 6, 6, 11, 11, 11, 11, 11, 1, 1, 1, 1, 4, 6, 11, 11]
+[1, 6, 6, 11, 11, 6, 1, 1, 1, 11, 11, 11, 1, 1, 11]
 strengths: 
-[-59, -75, -70, -41, -70, -75, -64, -69, -64, -69, -79, -59, -82, -83, -77, -73, -76, -62, -69]
+[-62, -48, -71, -71, -74, -76, -9, -22, -74, -75, -76, -71, -80, -69, -65]
 ssids: 
-['ltp', 'ltp', '', 'DIRECT-8c-HP M15 LaserJet', 'DIRECT-F7-HP OfficeJet 8700', '', "Robert's Wi-Fi Network", 'ngHub_319332NL021C3', '', 'SETUP', 'DIRECT-14-HP M227f LaserJet', '', 'ltp', '', '', 'NETGEAR40', 'ltp', 'ltp', 'ltp']
--8.5, 17.0, -67.5
--4.5, 9.0, -79.5
--5.75, 11.5, -75.75
--13.0, 156.0, -509.0
--5.75, 69.0, -277.0
--4.5, 54.0, -237.0
--7.25, 159.5, -941.25
--6.0, 132.0, -795.0
--7.25, 159.5, -941.25
--6.0, 132.0, -795.0
--3.5, 77.0, -502.5
--8.5, 17.0, -67.5
--2.75, 5.5, -84.75
--2.5, 5.0, -85.5
--4.0, 8.0, -81.0
--5.0, 40.0, -153.0
--4.25, 51.0, -229.0
--7.75, 170.5, -999.75
--6.0, 132.0, -795.0
+['ltp', 'DIRECT-8c-HP M15 LaserJet', 'DIRECT-F7-HP OfficeJet 8700', 'ngHub_319332NL021C3', 'SETUP', 'ltp', 'iPhone', 'Samsung Galaxy S7 1032', 'ltp', "Robert's Wi-Fi Network", 'ltp', 'ltp', '', 'ltp', '']
+-7.0, 14.0, -69.0
+-10.5, 126.0, -426.0
+-4.75, 57.0, -242.0
+-4.75, 104.5, -645.75
+-4.0, 88.0, -558.0
+-3.5, 42.0, -202.0
+-20.25, 40.5, -29.25
+-17.0, 34.0, -39.0
+-4.0, 8.0, -78.0
+-3.75, 82.5, -528.75
+-3.5, 77.0, -499.5
+-4.75, 104.5, -645.75
+-2.5, 5.0, -82.5
+-5.25, 10.5, -74.25
+-6.25, 137.5, -821.25
 channel 11 is the best
-The software has the determined that the best channel to switch to is channel 11 based on it having the lowest signal peak of -62
+The software has the determined that the best channel to switch to is channel 11 based on it having the lowest signal peak of -65
 
 11

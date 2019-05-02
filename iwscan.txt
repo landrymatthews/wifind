@@ -1,81 +1,78 @@
                     channel:1
-                    strength:59  
+                    strength:62  
                     ESSID:"ltp"
-                    channel:1
-                    strength:75  
-                    ESSID:"ltp"
-                    channel:1
-                    strength:70  
-                    ESSID:""
                     channel:6
-                    strength:41  
+                    strength:48  
                     ESSID:"DIRECT-8c-HP M15 LaserJet"
                     channel:6
-                    strength:70  
+                    strength:71  
                     ESSID:"DIRECT-F7-HP OfficeJet 8700"
-                    channel:6
-                    strength:75  
-                    ESSID:""
                     channel:11
-                    strength:64  
-                    ESSID:"Robert's Wi-Fi Network"
-                    channel:11
-                    strength:69  
+                    strength:71  
                     ESSID:"ngHub_319332NL021C3"
                     channel:11
-                    strength:64  
-                    ESSID:""
-                    channel:11
-                    strength:69  
+                    strength:74  
                     ESSID:"SETUP"
-                    channel:11
-                    strength:79  
-                    ESSID:"DIRECT-14-HP M227f LaserJet"
                     channel:36
-                    strength:73  
+                    strength:66  
                     ESSID:"ltp"
                     channel:60
-                    strength:79  
-                    ESSID:""
-                    channel:60
-                    strength:79  
+                    strength:83  
                     ESSID:"ltp"
-                    channel:60
-                    strength:88  
-                    ESSID:""
                     channel:108
                     strength:74  
                     ESSID:"ltp"
                     channel:108
+                    strength:74  
+                    ESSID:""
+                    channel:6
+                    strength:76  
+                    ESSID:"ltp"
+                    channel:60
+                    strength:88  
+                    ESSID:"ltp"
+                    channel:1
+                    strength:9  
+                    ESSID:"iPhone"
+                    channel:1
+                    strength:22  
+                    ESSID:"Samsung Galaxy S7 1032"
+                    channel:60
+                    strength:86  
+                    ESSID:""
+                    channel:1
+                    strength:74  
+                    ESSID:"ltp"
+                    channel:36
+                    strength:67  
+                    ESSID:""
+                    channel:60
+                    strength:87  
+                    ESSID:"ltp"
+                    channel:11
                     strength:75  
+                    ESSID:"Robert's Wi-Fi Network"
+                    channel:11
+                    strength:76  
+                    ESSID:"ltp"
+                    channel:11
+                    strength:71  
+                    ESSID:"ltp"
+                    channel:60
+                    strength:88  
                     ESSID:""
                     channel:149
                     strength:83  
                     ESSID:"Robert's Wi-Fi Network"
                     channel:1
-                    strength:59  
+                    strength:80  
                     ESSID:""
                     channel:1
-                    strength:82  
-                    ESSID:"ltp"
-                    channel:1
-                    strength:83  
-                    ESSID:""
-                    channel:1
-                    strength:77  
-                    ESSID:""
-                    channel:4
-                    strength:73  
-                    ESSID:"NETGEAR40"
-                    channel:6
-                    strength:76  
-                    ESSID:"ltp"
-                    channel:11
-                    strength:62  
-                    ESSID:"ltp"
-                    channel:11
                     strength:69  
                     ESSID:"ltp"
+                    channel:11
+                    strength:65  
+                    ESSID:""
                     channel:60
-                    strength:87  
-                    ESSID:"ltp"
+                    strength:83  
+                    ESSID:""
