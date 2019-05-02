@@ -1,45 +1,81 @@
-                    channel:3
-                    strength:54  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:3
-                    strength:62  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:3
-                    strength:54  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:3
-                    strength:49  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:6
-                    strength:78  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    channel:7
-                    strength:58  
-                    ESSID:""
-                    channel:7
-                    strength:62  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:7
-                    strength:67  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:10
-                    strength:73  
-                    ESSID:"DIRECT-E9-HP ENVY 4520 series"
-                    channel:11
-                    strength:84  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    channel:136
+                    channel:1
+                    strength:59  
+                    ESSID:"ltp"
+                    channel:1
+                    strength:75  
+                    ESSID:"ltp"
+                    channel:1
                     strength:70  
-                    ESSID:"WhiteSky-Arlington"
-                    channel:136
-                    strength:67  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:""
+                    channel:6
+                    strength:41  
+                    ESSID:"DIRECT-8c-HP M15 LaserJet"
+                    channel:6
+                    strength:70  
+                    ESSID:"DIRECT-F7-HP OfficeJet 8700"
+                    channel:6
+                    strength:75  
+                    ESSID:""
+                    channel:11
+                    strength:64  
+                    ESSID:"Robert's Wi-Fi Network"
+                    channel:11
+                    strength:69  
+                    ESSID:"ngHub_319332NL021C3"
+                    channel:11
+                    strength:64  
+                    ESSID:""
+                    channel:11
+                    strength:69  
+                    ESSID:"SETUP"
+                    channel:11
+                    strength:79  
+                    ESSID:"DIRECT-14-HP M227f LaserJet"
+                    channel:36
+                    strength:73  
+                    ESSID:"ltp"
+                    channel:60
+                    strength:79  
+                    ESSID:""
+                    channel:60
+                    strength:79  
+                    ESSID:"ltp"
+                    channel:60
+                    strength:88  
+                    ESSID:""
+                    channel:108
+                    strength:74  
+                    ESSID:"ltp"
+                    channel:108
+                    strength:75  
+                    ESSID:""
                     channel:149
-                    strength:62  
+                    strength:83  
+                    ESSID:"Robert's Wi-Fi Network"
+                    channel:1
+                    strength:59  
                     ESSID:""
-                    channel:3
-                    strength:47  
+                    channel:1
+                    strength:82  
+                    ESSID:"ltp"
+                    channel:1
+                    strength:83  
                     ESSID:""
-                    channel:10
+                    channel:1
+                    strength:77  
+                    ESSID:""
+                    channel:4
+                    strength:73  
+                    ESSID:"NETGEAR40"
+                    channel:6
                     strength:76  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:"ltp"
+                    channel:11
+                    strength:62  
+                    ESSID:"ltp"
+                    channel:11
+                    strength:69  
+                    ESSID:"ltp"
+                    channel:60
+                    strength:87  
+                    ESSID:"ltp"

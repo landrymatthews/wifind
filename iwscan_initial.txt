@@ -1,45 +1,81 @@
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=56/70  Signal level=-54 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=48/70  Signal level=-62 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=56/70  Signal level=-54 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=61/70  Signal level=-49 dBm  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    Frequency:2.437 GHz (Channel 6)
-                    Quality=32/70  Signal level=-78 dBm  
-                    ESSID:"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-                    Frequency:2.442 GHz (Channel 7)
-                    Quality=52/70  Signal level=-58 dBm  
-                    ESSID:""
-                    Frequency:2.442 GHz (Channel 7)
-                    Quality=48/70  Signal level=-62 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:2.442 GHz (Channel 7)
-                    Quality=43/70  Signal level=-67 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:2.457 GHz (Channel 10)
-                    Quality=37/70  Signal level=-73 dBm  
-                    ESSID:"DIRECT-E9-HP ENVY 4520 series"
-                    Frequency:2.462 GHz (Channel 11)
-                    Quality=26/70  Signal level=-84 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
-                    Frequency:5.68 GHz (Channel 136)
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=51/70  Signal level=-59 dBm  
+                    ESSID:"ltp"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=35/70  Signal level=-75 dBm  
+                    ESSID:"ltp"
+                    Frequency:2.412 GHz (Channel 1)
                     Quality=40/70  Signal level=-70 dBm  
-                    ESSID:"WhiteSky-Arlington"
-                    Frequency:5.68 GHz (Channel 136)
-                    Quality=43/70  Signal level=-67 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:""
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=69/70  Signal level=-41 dBm  
+                    ESSID:"DIRECT-8c-HP M15 LaserJet"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=40/70  Signal level=-70 dBm  
+                    ESSID:"DIRECT-F7-HP OfficeJet 8700"
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=35/70  Signal level=-75 dBm  
+                    ESSID:""
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=46/70  Signal level=-64 dBm  
+                    ESSID:"Robert's Wi-Fi Network"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=41/70  Signal level=-69 dBm  
+                    ESSID:"ngHub_319332NL021C3"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=46/70  Signal level=-64 dBm  
+                    ESSID:""
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=41/70  Signal level=-69 dBm  
+                    ESSID:"SETUP"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=31/70  Signal level=-79 dBm  
+                    ESSID:"DIRECT-14-HP M227f LaserJet"
+                    Frequency:5.18 GHz (Channel 36)
+                    Quality=37/70  Signal level=-73 dBm  
+                    ESSID:"ltp"
+                    Frequency:5.3 GHz (Channel 60)
+                    Quality=31/70  Signal level=-79 dBm  
+                    ESSID:""
+                    Frequency:5.3 GHz (Channel 60)
+                    Quality=31/70  Signal level=-79 dBm  
+                    ESSID:"ltp"
+                    Frequency:5.3 GHz (Channel 60)
+                    Quality=22/70  Signal level=-88 dBm  
+                    ESSID:""
+                    Frequency:5.54 GHz (Channel 108)
+                    Quality=36/70  Signal level=-74 dBm  
+                    ESSID:"ltp"
+                    Frequency:5.54 GHz (Channel 108)
+                    Quality=35/70  Signal level=-75 dBm  
+                    ESSID:""
                     Frequency:5.745 GHz (Channel 149)
-                    Quality=48/70  Signal level=-62 dBm  
+                    Quality=27/70  Signal level=-83 dBm  
+                    ESSID:"Robert's Wi-Fi Network"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=51/70  Signal level=-59 dBm  
                     ESSID:""
-                    Frequency:2.422 GHz (Channel 3)
-                    Quality=63/70  Signal level=-47 dBm  
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=28/70  Signal level=-82 dBm  
+                    ESSID:"ltp"
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=27/70  Signal level=-83 dBm  
                     ESSID:""
-                    Frequency:2.457 GHz (Channel 10)
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=33/70  Signal level=-77 dBm  
+                    ESSID:""
+                    Frequency:2.427 GHz (Channel 4)
+                    Quality=37/70  Signal level=-73 dBm  
+                    ESSID:"NETGEAR40"
+                    Frequency:2.437 GHz (Channel 6)
                     Quality=34/70  Signal level=-76 dBm  
-                    ESSID:"WhiteSky-PublicWiFi"
+                    ESSID:"ltp"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=48/70  Signal level=-62 dBm  
+                    ESSID:"ltp"
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=41/70  Signal level=-69 dBm  
+                    ESSID:"ltp"
+                    Frequency:5.3 GHz (Channel 60)
+                    Quality=23/70  Signal level=-87 dBm  
+                    ESSID:"ltp"

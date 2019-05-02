@@ -1,22 +1,29 @@
 channels: 
-[3, 3, 3, 3, 6, 7, 7, 7, 10, 11, 3, 10]
+[1, 1, 1, 6, 6, 6, 11, 11, 11, 11, 11, 1, 1, 1, 1, 4, 6, 11, 11]
 strengths: 
-[-54, -62, -54, -49, -78, -58, -62, -67, -73, -84, -47, -76]
+[-59, -75, -70, -41, -70, -75, -64, -69, -64, -69, -79, -59, -82, -83, -77, -73, -76, -62, -69]
 ssids: 
-['WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'DIRECT-E9-HP ENVY 4520 series', 'WhiteSky-PublicWiFi', '', 'WhiteSky-PublicWiFi']
--10.0, 60.0, -144.0
--8.0, 48.0, -134.0
--10.0, 60.0, -144.0
--11.25, 67.5, -150.25
--4.0, 48.0, -222.0
--9.0, 126.0, -499.0
--8.0, 112.0, -454.0
--6.75, 94.5, -397.75
--5.25, 105.0, -598.0
--2.5, 55.0, -386.5
--11.75, 70.5, -152.75
--4.5, 90.0, -526.0
-channel 1 is the best
-The software has the determined that the best channel to switch to is channel 1 based on it having the lowest signal peak of -1000
+['ltp', 'ltp', '', 'DIRECT-8c-HP M15 LaserJet', 'DIRECT-F7-HP OfficeJet 8700', '', "Robert's Wi-Fi Network", 'ngHub_319332NL021C3', '', 'SETUP', 'DIRECT-14-HP M227f LaserJet', '', 'ltp', '', '', 'NETGEAR40', 'ltp', 'ltp', 'ltp']
+-8.5, 17.0, -67.5
+-4.5, 9.0, -79.5
+-5.75, 11.5, -75.75
+-13.0, 156.0, -509.0
+-5.75, 69.0, -277.0
+-4.5, 54.0, -237.0
+-7.25, 159.5, -941.25
+-6.0, 132.0, -795.0
+-7.25, 159.5, -941.25
+-6.0, 132.0, -795.0
+-3.5, 77.0, -502.5
+-8.5, 17.0, -67.5
+-2.75, 5.5, -84.75
+-2.5, 5.0, -85.5
+-4.0, 8.0, -81.0
+-5.0, 40.0, -153.0
+-4.25, 51.0, -229.0
+-7.75, 170.5, -999.75
+-6.0, 132.0, -795.0
+channel 11 is the best
+The software has the determined that the best channel to switch to is channel 11 based on it having the lowest signal peak of -62
 
-1
+11
