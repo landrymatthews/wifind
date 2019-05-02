@@ -1,37 +1,22 @@
 channels: 
-[1, 1, 1, 1, 6, 1, 1, 1, 6, 6, 6, 11, 11, 11, 1, 1, 6, 6, 1, 1, 11, 1, 1, 6, 6, 6, 6]
+[3, 3, 3, 3, 6, 7, 7, 7, 10, 11, 3, 10]
 strengths: 
-[-58, -57, -58, -56, -63, -75, -75, -78, -69, -70, -70, -70, -70, -69, -78, -73, -70, -35, -18, -76, -67, -77, -79, -67, -67, -71, -76]
+[-54, -62, -54, -49, -78, -58, -62, -67, -73, -84, -47, -76]
 ssids: 
-['lsuwifihelp', 'eduroam', 'lsuguest', 'Brandon\\xE2\\x80\\x99s iPhone', 'DIRECT-9F-HP OfficeJet 3830', 'lsuguest', 'lsuwifihelp', 'eduroam', 'DIRECT-99-HP OfficeJet Pro 8720', 'lsuwifihelp', 'lsuguest', 'SETUP', 'lsuguest', 'eduroam', '\\x00', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', 'Jamie Jewell\\xE2\\x80\\x99s iPhone', 'Samsung Galaxy S7 1032', 'eduroam', 'DIRECT-iSDESKTOP-497D497msZE', 'lsuguest', 'eduroam', 'lsuguest', 'lsuwifihelp', 'eduroam', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00']
--7.75, 15.5, -65.75
--8.0, 16.0, -65.0
--7.75, 15.5, -65.75
--8.25, 16.5, -64.25
--6.5, 78.0, -297.0
--3.5, 7.0, -78.5
--3.5, 7.0, -78.5
--2.75, 5.5, -80.75
--5.0, 60.0, -249.0
--4.75, 57.0, -241.0
--4.75, 57.0, -241.0
--4.75, 104.5, -644.75
--4.75, 104.5, -644.75
--5.0, 110.0, -674.0
--2.75, 5.5, -80.75
--4.0, 8.0, -77.0
--4.75, 57.0, -241.0
--13.5, 162.0, -521.0
--17.75, 35.5, -35.75
--3.25, 6.5, -79.25
--5.5, 121.0, -732.5
--3.0, 6.0, -80.0
--2.5, 5.0, -81.5
--5.5, 66.0, -265.0
--5.5, 66.0, -265.0
--4.5, 54.0, -233.0
--3.25, 39.0, -193.0
-channel 11 is the best
-The software has the determined that the best channel to switch to is channel 11 based on it having the lowest signal peak of -67
+['WhiteSky-PublicWiFi', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00', '', 'WhiteSky-PublicWiFi', 'WhiteSky-Arlington', 'DIRECT-E9-HP ENVY 4520 series', 'WhiteSky-PublicWiFi', '', 'WhiteSky-PublicWiFi']
+-10.0, 60.0, -144.0
+-8.0, 48.0, -134.0
+-10.0, 60.0, -144.0
+-11.25, 67.5, -150.25
+-4.0, 48.0, -222.0
+-9.0, 126.0, -499.0
+-8.0, 112.0, -454.0
+-6.75, 94.5, -397.75
+-5.25, 105.0, -598.0
+-2.5, 55.0, -386.5
+-11.75, 70.5, -152.75
+-4.5, 90.0, -526.0
+channel 1 is the best
+The software has the determined that the best channel to switch to is channel 1 based on it having the lowest signal peak of -1000
 
-11
+1

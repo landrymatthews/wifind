@@ -934,3 +934,23 @@ vim weiPlotSpec.py
 sudo ./weiwifind.sh 4
 vim weiPlotSpec.py 
 sudo ./weiwifind.sh 4
+ls
+vim wifind.sh 
+ls
+cd adc_stuff/
+ls
+cat adc_code.c 
+ls
+cat adc.py
+vim adc.py 
+ls
+vim adcPlot.py 
+vim pwm_code.py 
+vim squarewave.py 
+vim readADC.sh 
+cd ..
+vim wifind.sh 
+ls
+vim weiwifind.sh 
+vim weiPlotSpec.py 
+vim wifind.sh 
